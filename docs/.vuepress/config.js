@@ -1,6 +1,6 @@
 module.exports = {
     // 设置网站标题
-    title: '再无嘻嘻哈哈',
+    title: 'Atom',
     // 设置输出目录
     description: "敲就硬敲",
     dest: './dist',
@@ -10,15 +10,37 @@ module.exports = {
             {
                 title: '常用工具和库',
                 children: [
-                    '/tool/',
-                    '/tool/Jquery'
+                    '/tool/Jquery',
+                    '/tool/Jquery2',
+                    '/tool/Superagent',
+                    '/tool/axios',
+                    // '/tool/Jquery(二)',
+                    // '/tool/weboackp1',
+                    // '/tool/webpack2',
+                    // '/tool/Superagent',
+                    // '/tool/axios'
+                    // '/tool/',
+                    // '/Font/JsBrith',
+                    // '/tool/Jquery(二)',
+                    // '/tool/weboackp1',
+                    // '/tool/webpack2',
+                    // '/tool/Superagent',
+                    // '/tool/axios'
                 ]
             },
             {
                 title: '前端',
                 children: [
-                    '/Font/Jquery',
                     '/Font/JsBrith',
+                    '/Font/Jsbasic',
+                    '/Font/Html',
+                    '/Font/Css',
+                    '/Font/浏览器渲染原理及Css动画',
+                    '/Font/轮播图',
+                    '/Font/scss',
+                    '/Font/瀑布流实现原理'
+
+
                 ]
             },
             {
@@ -34,11 +56,12 @@ module.exports = {
                 title: 'Mongodb手册',
                 children: [
                     '/Mongodb/',
-                    '/Mongodb/mongodb'
+                    '/Mongodb/mongodb',
+                    '/Mongodb/mongodb2'
                 ]
             }, {
-                title:'Linux',
-                children:[
+                title: 'Linux',
+                children: [
                     '/linux/basic',
                     '/linux/nginx',
                 ]

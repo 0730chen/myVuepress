@@ -1,5 +1,5 @@
 ---
-title: JavaScript的诞生
+title: JavaScript的设计
 data: 2019-10-09
 tag: Js Js设计
 ---
