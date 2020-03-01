@@ -1,28 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="" />
+    <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/12523.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Font/Vue构造选项.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Font/正则表达式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VueBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VueBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/0.styles.868da283.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/img/search.83621669.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/2.5f518ef3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/3.b0ed85fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/4.59116900.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/5.6f4e2971.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/6.df4442b0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.76bde788.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ES6/Object.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ES6/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/Css.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/Css.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/Jsbasic.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/scss.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/scss.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Mongodb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Mongodb/mongodb.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Mongodb/mongodb.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/home/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/home/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/linux/nginx.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/linux/nginx.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/page-components.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/page-components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/siteData.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/siteData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/053bc43342f53443aa59750f8a24bf0a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/053bc43342f53443aa59750f8a24bf0a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/1156884994441d37de41b80edb2bd7df.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/1156884994441d37de41b80edb2bd7df.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/1a5d833f5d7f002823ef16798c54c06a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/1a5d833f5d7f002823ef16798c54c06a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/22873d9c8287cdf8eebed287cf192c22.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/22873d9c8287cdf8eebed287cf192c22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/234151e2f05c943c9edf64ace1ecc890.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/234151e2f05c943c9edf64ace1ecc890.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/2ed1a7d3fb6c8d30699a1606160a250d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/2ed1a7d3fb6c8d30699a1606160a250d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/3defd37593eea5253222264a9013f3b1.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/3defd37593eea5253222264a9013f3b1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/3e78376ec57f2475d09d24102a25dcea.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/3e78376ec57f2475d09d24102a25dcea.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/4ae5bfd01f659cb82d2fd931baeb8fc1.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/4ae5bfd01f659cb82d2fd931baeb8fc1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/4d8db08f67518e751f5908ba8367604d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/4d8db08f67518e751f5908ba8367604d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/5227a48e9cb63ba814974291fcb9f036.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/5227a48e9cb63ba814974291fcb9f036.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/6aecf8fa42e7d4db38e5ea5c89946bc6.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/6aecf8fa42e7d4db38e5ea5c89946bc6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/7362ae95dc2326f0daa49ec154b8510a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/7362ae95dc2326f0daa49ec154b8510a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/7f27cd4960736844a47f532f034329b4.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/7f27cd4960736844a47f532f034329b4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/874fb40fd3d9028e5fef968dc6df3f3a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/874fb40fd3d9028e5fef968dc6df3f3a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/a6b73e7bf5dab40a83d0c3138dac330f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/a6b73e7bf5dab40a83d0c3138dac330f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/b124d73f992059a231a9727dcbd9079b.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/b124d73f992059a231a9727dcbd9079b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/bee52c1d3dccb6d13d726de944f3d788.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/bee52c1d3dccb6d13d726de944f3d788.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/d3ea7f2e78d993ea0f88f89615e3564a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/d3ea7f2e78d993ea0f88f89615e3564a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/d492573536cedea837dd9beccc34c20e.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/d492573536cedea837dd9beccc34c20e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/dcd67ac748308d7a0f0aba1a7123fe84.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/node_modules/.cache/vuepress/dcd67ac748308d7a0f0aba1a7123fe84.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1TpIV3UPoA0vkAUTF1Di4tkf6ut" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/H5/Node-API/Node-API" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../keepcount/src/assets/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\H5\keepcount\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\H5\keepcount\src\models" />
       <recent name="D:\VueBlog\docs\" />
       <recent name="D:\VueBlog\doc\guide" />
       <recent name="D:\VueBlog\doc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\H5\keepcount\src\assets\icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -37,12 +119,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.ajax.js">
+    <configuration name="ajax.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../Node-API/ajax.js" working-dir="$PROJECT_DIR$/../Node-API">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../music/NeteaseCloudMusicApi/app.js" working-dir="$PROJECT_DIR$/../music/NeteaseCloudMusicApi">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../Node-API/app.js" working-dir="$PROJECT_DIR$/../Node-API">
+      <method v="2" />
+    </configuration>
     <configuration name="text.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="E:/H5/Node-API/Node-API/text.js" working-dir="E:/H5/Node-API/Node-API">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.ajax.js" />
+        <item itemvalue="Node.js.app.js (1)" />
+        <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.text.js" />
       </list>
     </recent_temporary>
@@ -62,10 +156,76 @@
       <workItem from="1574152681327" duration="5160000" />
       <workItem from="1574213162391" duration="13810000" />
       <workItem from="1574233126716" duration="6974000" />
+      <workItem from="1578397162070" duration="3351000" />
+      <workItem from="1578929282003" duration="5795000" />
+      <workItem from="1579090599132" duration="3947000" />
+      <workItem from="1579232307199" duration="913000" />
+      <workItem from="1579349375697" duration="1000" />
+      <workItem from="1579349418686" duration="65000" />
+      <workItem from="1579351666187" duration="10417000" />
+      <workItem from="1579435594058" duration="1545000" />
+      <workItem from="1579512011971" duration="6280000" />
+      <workItem from="1579681395101" duration="2419000" />
+      <workItem from="1580197028847" duration="1203000" />
+      <workItem from="1580710781382" duration="1512000" />
+      <workItem from="1580807841865" duration="3361000" />
+      <workItem from="1581734054530" duration="20916000" />
+      <workItem from="1581823456226" duration="24827000" />
+      <workItem from="1581908342437" duration="28231000" />
+      <workItem from="1582001843869" duration="88042000" />
+      <workItem from="1582513384826" duration="159000" />
+      <workItem from="1582513561457" duration="662000" />
+      <workItem from="1582514630021" duration="325000" />
+      <workItem from="1582514972306" duration="304000" />
+      <workItem from="1582515292966" duration="389000" />
+      <workItem from="1582515698214" duration="510000" />
+      <workItem from="1582516227750" duration="314000" />
+      <workItem from="1582516669895" duration="402000" />
+      <workItem from="1582517092754" duration="46000" />
+      <workItem from="1582517153863" duration="812000" />
+      <workItem from="1582517990722" duration="2712000" />
+      <workItem from="1582520723399" duration="865000" />
+      <workItem from="1582521619246" duration="6195000" />
+      <workItem from="1582638001312" duration="10860000" />
+      <workItem from="1582772847360" duration="2440000" />
+      <workItem from="1582777050700" duration="1095000" />
+      <workItem from="1582781247088" duration="15798000" />
+      <workItem from="1582806846672" duration="458000" />
+      <workItem from="1582807353779" duration="1201000" />
+      <workItem from="1582808605571" duration="22400000" />
+      <workItem from="1582897865740" duration="802000" />
+      <workItem from="1582946896657" duration="17557000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../keepcount/src/registerServiceWorker.js" />
+        <option value="$PROJECT_DIR$/../keepcount/src/main.js.map" />
+        <option value="$PROJECT_DIR$/../keepcount/src/main.js" />
+        <option value="$PROJECT_DIR$/../keepcount/src/registerServiceWorker.js.map" />
+        <option value="$PROJECT_DIR$/../keepcount/tests/unit/example.spec.js.map" />
+        <option value="$PROJECT_DIR$/../keepcount/tests/unit/example.spec.js" />
+        <option value="$PROJECT_DIR$/../keepcount/src/router/index.js" />
+        <option value="$PROJECT_DIR$/../keepcount/src/router/index.js.map" />
+        <option value="$PROJECT_DIR$/../keepcount/src/store/index.js" />
+        <option value="$PROJECT_DIR$/../keepcount/src/store/index.js.map" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

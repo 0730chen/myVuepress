@@ -61,3 +61,8 @@ title: 博客时光轴
 * :tada: 使用superagent和cheerio库搭建热榜数据接口
 * :tada: 使用React搭建一个每日热榜，天气查询(使用高德API)
 * :tada: 学习MVC结构 设计模式
+### 2019-12-01 -> :rocket:
+* :tada: 学习Typescript
+* :tada: 在Vue中应用TS
+* :tada: 学习优化博客管理后台
+* :tada: 封装日历组件

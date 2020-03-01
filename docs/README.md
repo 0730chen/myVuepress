@@ -4,11 +4,11 @@ heroImage:
 actionText: 快速上手 →
 actionLink: /home/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: 兴趣驱动
+  details: 兴趣是最好的老师,也是最好的动力
+- title: 想到就去行动
+  details: 想的多不如做的多，敲的多了也就熟练了
+- title: 不完美
+  details: 一个作品不可能第一遍就完美无缺，需要经过多次打磨才能更进一步
+footer: MIT Licensed | 浙ICP备19033350号
 ---

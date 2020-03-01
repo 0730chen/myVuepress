@@ -3,8 +3,7 @@ title: Scss的学习使用
 data: 2019-11-6
 tag: Css 页面样式
 ---
-
-##### Sass和Scss,Css他们三者之间的区别。
+#### Sass和Scss,Css他们三者之间的区别。
 1. Sass 是Css的预处理语言
 	是一种css的开发工具，可以极大便利Css的开发
 2. Scss 是Sass的修改版本，更符合JS程序员的认识，更容易理解

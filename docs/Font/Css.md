@@ -3,6 +3,7 @@ title: Css居中
 date: 2019-03-21 20:14:36
 tags: css
 ---
+### Css居中
 1.使一个div标签在页面中居中，水平居中和垂直居中
     设置div为绝对定位 position:absolute
     设置top值与left值都为50% top:50%;left:50%;
