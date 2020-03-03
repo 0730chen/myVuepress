@@ -1,10 +1,9 @@
 
-#### 自定义指令
+#### Vue指令
 * 全局自定义指令 
 
 ```vue
 <script>
-//全局指令
 Vue.directive('x',{
     inserted:function(el){
     el.addEventListener('click',()=>{
@@ -14,8 +13,11 @@ Vue.directive('x',{
 })
 //自定义指令 v-x ，点击时打印x
 //template:`<div v-x>x</div>`
+</script>
+```
 
-//局部指令
+* 定义局部指令
+```vuejs
 const vm = new Vue({
     directives:{
     x:{
@@ -27,43 +29,46 @@ const vm = new Vue({
     }
     } 
 })
-//template:`<div v-x>x</div>`
-//简写
-Vue.directive('color-swatch', function (el, binding) {
-  el.style.backgroundColor = binding.value
-})
-</script>
+template:`<div v-x>x</div>`
+
+
 ```
 指令的钩子函数
  * bind:只调用一次，指令第一次绑定到元素时调用。在这里可以进行一次性的初始化设置。
  * inserted：被绑定元素插入父节点时调用 (仅保证父节点存在，但不一定已被插入文档中)。
  * update：所在组件的 VNode 更新时调用，但是可能发生在其子 VNode 更新之前。指令的值可能发生了改变，也可能没有。但是你可以通过比较更新前后的值来忽略不必要的模板更新。
- 
- #### mixins混合
- 混入也可以进行全局注册。使用时格外小心！一旦使用全局混入，它将影响每一个之后创建的 Vue 实例。使用恰当时，这可以用来为自定义选项注入处理逻辑。
- 
- 使用情景：vue的options选项需要复用时mixins,比如说都有同一个函数
- 
- * mixins注册
- ```javascript
- var myMixin = {
-   created: function () {
-     this.hello()
-   },
-   methods: {
-     hello: function () {
-       console.log('hello from mixin!')
-     }
-   }
- }
- 
- // 定义一个使用混入对象的组件
- var Component = Vue.extend({
-   mixins: [myMixin]
- })
- 
- var component = new Component()
- ```
+
+自定义指令简写
+```vuejs
+Vue.directive('color-swatch', function (el, binding) {
+  el.style.backgroundColor = binding.value
+})
+```
+
+#### mixins混合
+混入也可以进行全局注册。使用时格外小心！一旦使用全局混入，它将影响每一个之后创建的 Vue 实例。使用恰当时，这可以用来为自定义选项注入处理逻辑。
+使用情景：vue的options选项需要复用时mixins
+
+* mixins注册
+```javascript
+var myMixin = {
+  created: function () {
+    this.hello()
+  },
+  methods: {
+    hello: function () {
+      console.log('hello from mixin!')
+    }
+  }
+}
+
+// 定义一个使用混入对象的组件
+var Component = Vue.extend({
+  mixins: [myMixin]
+})
+
+var component = new Component()
+```
 mixins中也有data,created,mounted等等参数
 mixins接受一个数组
 当组件和混入对象含有同名选项时，这些选项将以恰当的方式进行“合并”。
@@ -108,13 +113,10 @@ new Vue({
     console.log('组件钩子被调用')
   }
 })
+
+// => "混入对象的钩子被调用"
+// => "组件钩子被调用"
 ```
-钩子函数调用顺序
-
-混入对象的钩子被调用
-
-组件钩子被调用
-
 值为对象的选项，例如 methods、components 和 directives，将被合并为同一个对象。两个对象键名冲突时，取组件对象的键值对。
 ```javascript
 var mixin = {
@@ -144,6 +146,7 @@ vm.foo() // => "foo"
 vm.bar() // => "bar"
 vm.conflicting() // => "from self"
 ```
+
 * 全局注册
 ```javascript
 Vue.mixin({
@@ -160,7 +163,6 @@ new Vue({
 })
 // => "hello!"
 ```
-
 #### extends
 允许声明扩展另一个组件(可以是一个简单的选项对象或构造函数)，而无需使用 Vue.extend。这主要是为了便于扩展单文件组件。
 这和 mixins 类似
@@ -175,12 +177,11 @@ var CompB = {
 }
 ```
 
-#### 依赖注入
+#### provide/ inject
 这个是两个一起使用
+* provide：Object | () => Object
+* inject：Array<string> | { [key: string]: string | Symbol | Object }
 ```javascript
-provide：Object | () => Object
-inject：Array<string> | { [key: string]: string | Symbol | Object }
-
 // 父级组件提供 'foo'
 var Provider = {
   provide: {
@@ -189,10 +190,12 @@ var Provider = {
   // ...
 }
 
+// 子组件注入 'foo'
 var Child = {
   inject: ['foo'],
   created () {
     console.log(this.foo) // => "bar"
   }
   // ...
+}
 ```
