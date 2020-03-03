@@ -67,7 +67,9 @@ module.exports = {
                     '/Font/React组件',
                     '/Font/Vue修饰符',
                     '/Font/Vue构造选项',
-                    '/Font/Vue组合'
+                    '/Font/Icon组件',
+                    '/Font/面试'
+
                 ]
             },
             {
