@@ -15,7 +15,7 @@ title:Webpack使用
     const path = require('path')
     module.exports={
         mode:'production', //production和development 生产用于最后打包，默认是development
-        entry:{index:'./src/index.js',app:''}, //你的入口js文件，所有js文件的入口 可以配置多个入口
+        entry:{index:index.tindex.tsx'}, //你的入口js文件，所有js文件的入口 可以配置多个入口
         //出口只有一个
         output:{
             path:path.resolve(__dirname,'dist'),//配置输出路径

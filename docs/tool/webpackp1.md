@@ -10,7 +10,7 @@ tags: 打包工具
                               npm install webpack-cli --save
   2.在你的项目文件夹下创建文件夹app并在其中创建index.js。新建dist文件夹，并配置package.json文件夹，确保private：ture，并且删除main属性
 
-  3.运行命令 webpack app/index.js dist/bundle.js 
+  3.运行命令 webpack app/index.tsx dist/bundle.js 
    app/index.js是一个入口，dist文件夹是一个出口，执行命令后dist文件中会生成bundle.js。
   webpack可以去除繁杂的依赖关系，使用webpack能够更好的管理你的代码。
 

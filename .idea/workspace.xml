@@ -3,7 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Font/面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Font/webpack使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Font/webpack使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Mongodb/mongodb2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Mongodb/mongodb2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/42.c5533adc.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/42.c5533adc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/57.747eb4eb.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/57.747eb4eb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/75.fa0a7917.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/75.fa0a7917.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/77.f618bdb0.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/77.f618bdb0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tool/webpackp1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tool/webpackp1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tool/数据库的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tool/数据库的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/webpack使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/webpack使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Mongodb/mongodb2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Mongodb/mongodb2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tool/webpackp1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tool/webpackp1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tool/数据库的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tool/数据库的使用.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +27,9 @@
       <list>
         <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="XSLT Stylesheet" />
+        <option value="tsx" />
+        <option value="React Class Component" />
       </list>
     </option>
   </component>
@@ -149,7 +163,7 @@
       <workItem from="1583757905919" duration="15965000" />
       <workItem from="1583848829450" duration="28000000" />
       <workItem from="1583977808493" duration="24545000" />
-      <workItem from="1584113602610" duration="1126000" />
+      <workItem from="1584113602610" duration="34174000" />
     </task>
     <servers />
   </component>

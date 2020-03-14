@@ -6,7 +6,7 @@ tag: liunx Vue 负载均衡 跨域代理
 
 #### node nginx mongodb mongose
 
-- 1.在 node 中建立新路由时，新的路由要在 index.js 主文件进行注册, 并且新路由文件要 module.exports = router 暴露路由
+- 1.在 node 中建立新路由时，新的路由要在 index.tsx 主文件进行注册, 并且新路由文件要 module.exports = router 暴露路由
 - 2.POST 接受前台传输数据，在 node 后端处理，要经过两个 post 事件，接受数据并使用 querystring 处理数据。post('/',function(req,res){req.on('date'),req.on('end')})date 事件是接受数据(二进制数据),end 事件是处理接受到的数据，解析成为一个对象 or 字符串。
 - 3.在 node+express 中使用路由，路由规则就是注册一个 router.get('/router',function(req,res){}),路由一般用于页面的跳转和重定向
 - 4.在前端向后端发送数据请求，等待后端验证后，前端在进行跳转时，可以使用回调，在请求数据成功后，后端进行判断然后可以返回一个 reponse，在 ajax 中的 success 属性中接受到这个属性，并作出相应的跳转 or 提示处理
