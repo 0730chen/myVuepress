@@ -128,7 +128,7 @@ counter
 使用
 ```javascript
 import {createStore} from 'redux'
-import reducer from 'index'
+import reducer from home
 let store = createStore(reducer)
 ```
 将所有的reducer函数最终合并成一个reducer，使用createStore(reducer)创建store

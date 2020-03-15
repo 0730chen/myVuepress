@@ -30,7 +30,7 @@ npm start //开始项目
    //React.js定义的组件必须引入的库
    import React from "react";
    import ReactDOM from "react-dom";
-   import "./index.scss"; //引入css
+   import home; //引入css
    //组件语法与ES6中的class相似 类的定义
    class Click extends React.Component {
 	   //定义一个仓库储存将要使用数据和状态，像Vuex中的state仓库

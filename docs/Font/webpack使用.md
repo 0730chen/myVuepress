@@ -31,7 +31,7 @@ title:Webpack使用
         //插件属性
         plugins:[
             new HtmlWebpackPlugin({
-            template:'./src/index.html',//这个是html模板
+            template:home,//这个是html模板
             })
         ]
     }

@@ -3,18 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/webpack使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Font/webpack使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Mongodb/mongodb2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Mongodb/mongodb2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/16.e3db1c6c.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/16.e3db1c6c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/19.5ff9cfdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/19.5ff9cfdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/21.5f88993f.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/21.5f88993f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/27.4f2ad76d.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/27.4f2ad76d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/33.20f6e206.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/33.20f6e206.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/39.3031f73b.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/39.3031f73b.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/42.c5533adc.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/42.c5533adc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/44.f989e65a.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/44.f989e65a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/48.1e9de5f1.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/48.1e9de5f1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/49.75deb026.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/49.75deb026.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/50.08e4fecf.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/50.08e4fecf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/53.2ed96920.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/53.2ed96920.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/57.747eb4eb.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/57.747eb4eb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/6.33ed8a4f.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/6.33ed8a4f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/66.a5e12470.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/66.a5e12470.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/75.fa0a7917.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/75.fa0a7917.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/js/77.f618bdb0.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/77.f618bdb0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/webpackp1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tool/webpackp1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/数据库的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tool/数据库的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.dc883a72.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/app.dc883a72.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/app.c78390fd.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/app.c78390fd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/React入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/React入门.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/redux.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/redux.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Font/webpack使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/webpack使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Mongodb/mongodb2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Mongodb/mongodb2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tool/webpackp1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tool/webpackp1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/tool/数据库的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tool/数据库的使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/面试.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,15 +68,16 @@
     <property name="ts.external.directory.path" value="C:\H5\keepcount\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\H5\fanqitime\public\Icon" />
-      <recent name="C:\H5\keepcount\src\assets\icons" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\H5\todoto\src\redux\reducer" />
       <recent name="C:\H5\keepcount\src\models" />
       <recent name="D:\VueBlog\docs\" />
       <recent name="D:\VueBlog\doc\guide" />
       <recent name="D:\VueBlog\doc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\H5\fanqitime\public\Icon" />
+      <recent name="C:\H5\keepcount\src\assets\icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,7 +175,7 @@
       <workItem from="1583757905919" duration="15965000" />
       <workItem from="1583848829450" duration="28000000" />
       <workItem from="1583977808493" duration="24545000" />
-      <workItem from="1584113602610" duration="34174000" />
+      <workItem from="1584113602610" duration="65615000" />
     </task>
     <servers />
   </component>
