@@ -92,6 +92,12 @@ module.exports = {
                     '/linux/basic',
                     '/linux/nginx',
                 ]
+            },
+            {
+                title:"Flutter",
+                children:[
+                    '/Flutter/Flutter入坑1'
+                ],
             }
         ]
 
