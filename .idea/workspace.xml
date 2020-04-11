@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +159,8 @@
       <workItem from="1585214997163" duration="4961000" />
       <workItem from="1585999497321" duration="3944000" />
       <workItem from="1586100055996" duration="1067000" />
-      <workItem from="1586265920124" duration="7032000" />
+      <workItem from="1586265920124" duration="7681000" />
+      <workItem from="1586607944501" duration="1407000" />
     </task>
     <servers />
   </component>
