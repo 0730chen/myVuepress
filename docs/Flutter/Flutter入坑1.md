@@ -28,6 +28,6 @@ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 配置完成后在命令行输入 flutter doctor 检查项目是否还缺少库或者包
 #### Flutter Hello_world项目
 
-1. as(andoid studio)工具可以直接新建一个flutter项目，可以在命令行输入 flutter run 就可以跑起来你的第一个flutter项目了
+1. as(Andoid studio)工具可以直接新建一个flutter项目，可以在命令行输入 flutter run 就可以跑起来你的第一个flutter项目了
 
 
