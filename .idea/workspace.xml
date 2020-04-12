@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/Flutter/Flutter入坑1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Flutter/Flutter入坑1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/linux/basic.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/linux/basic.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +161,7 @@
       <workItem from="1585999497321" duration="3944000" />
       <workItem from="1586100055996" duration="1067000" />
       <workItem from="1586265920124" duration="7681000" />
-      <workItem from="1586607944501" duration="1578000" />
+      <workItem from="1586607944501" duration="9312000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586609391556</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix 修改了 flutter入坑">
+      <created>1586609557796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586609557796</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="尝试使用webstrom commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="尝试使用webstrom commit" />
+    <MESSAGE value="fix 修改了 flutter入坑" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 修改了 flutter入坑" />
   </component>
 </project>

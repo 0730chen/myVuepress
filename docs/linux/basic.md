@@ -55,3 +55,22 @@ bash | 执行脚本路径 | bash 脚本文件 |
 	 git merge | 在前分支运行命令，将分支合并 | git merge -分支名
 	 git diff | 查看不同 | 查看这次提交与之前提交的不同 +代表添加 -代表删除
 	 git status | 查看当前git的状态| git status sb 查看是否存在冲突
+	 
+#### git提交的正确姿势
+   * git message的规范形式
+  ```javascript 1.8
+//<type>(<scope>): <subject>
+// 空一行
+//<body>
+// 空一行
+//<footer>
+```
+   * 要有一个类型，说明你提交的commit是什么作用,然后是一个标题空一行，主要信息主体
+   * feat：新功能（feature）
+   * fix：修补bug
+   * docs：文档（documentation）
+   * style： 格式（不影响代码运行的变动）
+   * refactor：重构（即不是新增功能，也不是修改bug的代码变动）
+   * test：增加测试
+   * chore：构建过程或辅助工具的变动
+  
