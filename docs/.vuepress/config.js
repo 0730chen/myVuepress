@@ -77,6 +77,7 @@ module.exports = {
                 children: [
                     '/ES6/Array',
                     '/ES6/String',
+                    '/ES6/理解this'
                 ]
             },
             {
