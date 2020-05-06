@@ -34,7 +34,7 @@ module.exports = {
                     '/Font/scss',
                     '/Font/瀑布流实现原理',
                     '/Font/轮播图',
-                    '/Font/Dom事件相关',
+                    '/Font/Dom事件',
                     '/Font/JS基础知识',
                     '/Font/JS对象',
                     '/Font/JS函数的执行机制',
