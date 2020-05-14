@@ -18,7 +18,8 @@ module.exports = {
                     '/tool/CV基本原理',
                     '/tool/数据库的使用',
                     '/tool/跨域详解',
-                    '/tool/微信js-sdk配置'
+                    '/tool/微信js-sdk配置',
+                    '/tool/koa2与express的差异'
                 ]
             },
             {
