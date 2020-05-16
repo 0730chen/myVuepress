@@ -78,7 +78,9 @@ module.exports = {
                 children: [
                     '/ES6/Array',
                     '/ES6/String',
-                    '/ES6/理解this'
+                    '/ES6/理解this',
+                    '/ES6/发布订阅和观察者模式',
+                    '/ES6/浏览器和Node.js的事件循环'
                 ]
             },
             {
