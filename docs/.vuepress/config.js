@@ -72,8 +72,6 @@ module.exports = {
                     '/Font/面试',
                     '/Font/koa2与express的差异',
                     '/Font/服务端渲染SSR',
-                    '/Font/发布订阅和观察者模式',
-                    '/Font/浏览器和Node.js的事件循环'
                 ]
             },
             {
