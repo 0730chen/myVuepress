@@ -14,6 +14,7 @@ title: liunx的基本命令
  head | 查看文件内容的前10行 | head 文件路径
  tail | 查看文件的后10行内容 | tail 文件路径
  less | 查看文件内容| less文件路径
+ ps -ef|grep mongodb | 查看进程 | mongodb 查看程序
 增
 命令 | 用法 | 语法 |
 -----| -----| -----|

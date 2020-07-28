@@ -30,6 +30,7 @@ module.exports = {
                     '/Font/Html',
                     '/Font/Html2',
                     '/Font/Css',
+                    '/Font/Css布局',
                     '/Font/浏览器渲染原理及Css动画',
                     '/Font/轮播图',
                     '/Font/scss',
@@ -72,6 +73,7 @@ module.exports = {
                     '/Font/面试',
                     '/Font/koa2与express的差异',
                     '/Font/服务端渲染SSR',
+                    '/Font/Nest(一)'
                 ]
             },
             {
