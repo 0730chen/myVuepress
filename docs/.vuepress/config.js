@@ -83,7 +83,8 @@ module.exports = {
                     '/ES6/String',
                     '/ES6/理解this',
                     '/ES6/发布订阅和观察者模式',
-                    '/ES6/浏览器和Node.js的事件循环'
+                    '/ES6/浏览器和Node.js的事件循环',
+                    '/ES6/高阶函数之call，apply'
                 ]
             },
             {
@@ -105,7 +106,21 @@ module.exports = {
                 children:[
                     '/Flutter/Flutter入坑1'
                 ],
+            },
+            {
+                title:'设计模式',
+                children:[
+                    '/设计模式/工厂方法'
+                ]
+
+            },
+            {
+                title:'工作记录',
+                children:[
+                    '/工作记录/导航栏样式'
+                ]
             }
+
         ]
 
 

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/工作记录/导航栏样式.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/工作记录/导航栏样式.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,23 +47,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/ES6" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Stylus" />
-    <property name="ts.external.directory.path" value="C:\H5\Django-demo\myApp\myApp\django-vue\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="C:\H5\money-atom\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\H5\myVuepress\docs\Font" />
-      <recent name="C:\H5\fanqitime\public\Icon" />
-      <recent name="C:\H5\keepcount\src\assets\icons" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\H5\fish-ui\src" />
+      <recent name="C:\H5\fish-ui" />
       <recent name="C:\H5\money-manage\src\blog" />
       <recent name="C:\H5\money-manage\src\blog\schemas" />
       <recent name="C:\H5\money-atom\src" />
-      <recent name="C:\H5\money-atom\public\image" />
-      <recent name="C:\H5\money-atom\src\common\image" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\H5\myVuepress\docs\ES6" />
+      <recent name="C:\H5\myVuepress\docs\设计模式" />
+      <recent name="C:\H5\myVuepress\docs\Font" />
+      <recent name="C:\H5\fanqitime\public\Icon" />
+      <recent name="C:\H5\keepcount\src\assets\icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,7 +225,18 @@
       <workItem from="1596255276243" duration="12892000" />
       <workItem from="1596634596995" duration="3826000" />
       <workItem from="1596723721343" duration="2984000" />
-      <workItem from="1596813469764" duration="274000" />
+      <workItem from="1596813469764" duration="1013000" />
+      <workItem from="1596986079228" duration="1187000" />
+      <workItem from="1597066461875" duration="5521000" />
+      <workItem from="1597153128460" duration="5181000" />
+      <workItem from="1597239464086" duration="1933000" />
+      <workItem from="1597241435988" duration="3307000" />
+      <workItem from="1597245128683" duration="822000" />
+      <workItem from="1597328374478" duration="1354000" />
+      <workItem from="1597408712293" duration="6548000" />
+      <workItem from="1597470343367" duration="3578000" />
+      <workItem from="1597579451058" duration="9032000" />
+      <workItem from="1597671320409" duration="3054000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
@@ -268,6 +284,7 @@
         <option value="$PROJECT_DIR$/../keepcount/src/store/index.js" />
         <option value="$PROJECT_DIR$/../keepcount/src/store/index.js.map" />
         <option value="$PROJECT_DIR$/../koa2-cli/myApp/index.js" />
+        <option value="$PROJECT_DIR$/../fish-ui/src/main.js" />
       </list>
     </option>
   </component>
