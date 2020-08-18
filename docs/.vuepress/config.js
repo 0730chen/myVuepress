@@ -73,7 +73,7 @@ module.exports = {
                     '/Font/面试',
                     '/Font/koa2与express的差异',
                     '/Font/服务端渲染SSR',
-                    '/Font/Nest(一)'
+                    '/Font/Nest(1)'
                 ]
             },
             {
@@ -88,6 +88,12 @@ module.exports = {
                 ]
             },
             {
+                title:'正则系列',
+                children:[
+                    '/正则系列/正则系列1',
+                ]
+            },
+            {
                 title: 'Mongodb手册',
                 children: [
                     '/Mongodb/mongodb',
@@ -99,6 +105,7 @@ module.exports = {
                 children: [
                     '/linux/basic',
                     '/linux/nginx',
+                    '/linux/数据库'
                 ]
             },
             {
