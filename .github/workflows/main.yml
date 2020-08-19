@@ -22,7 +22,7 @@ jobs:
           ARGS: -avz --delete # must have this variable
           SERVER_PORT: "22" # SSH port
           FOLDER: ./ # folder to push (./ is the root of current repo)
-          SERVER_IP: ${{ secrets.ssh_host }} # use pre-configured ssh_host value (e.g., IP or domain.com）
-          USERNAME: ${{ secrets.ssh_username }} # use pre-configured ssh_username value
+          SERVER_IP: ${{ secrets.SSH_HOST }} # use pre-configured ssh_host value (e.g., IP or domain.com）
+          USERNAME: ${{ secrets.SSH_USERNAME }} # use pre-configured ssh_username value
           SERVER_DESTINATION: /var/www/xxx/ # put your repo files on this directory of the remote server
 
