@@ -1,33 +1,28 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Deploy Site
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - master # only run this workflow when there's a new commit pushed to the master branch
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+  deploy: # job_id
+    runs-on: ubuntu-latest # environment: use ubuntu
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    steps: # automated steps
+      - name: Checkout Repo # 1. checkout repo
+        uses: actions/checkout@v2 # Use a third party action (https://github.com/actions/checkout)
 
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
+      - name: Deploy to Server # 2. deploy to remote server
+        uses: AEnterprise/rsync-deploy@v1.0 # Use a third party action (https://github.com/AEnterprise/rsync-deploy)
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }} # use pre-configured secret (the private key)
+          ARGS: -avz --delete # must have this variable
+          SERVER_PORT: "22" # SSH port
+          FOLDER: ./ # folder to push (./ is the root of current repo)
+          SERVER_IP: ${{ secrets.SSH_HOST }} # use pre-configured ssh_host value (e.g., IP or domain.com）
+          USERNAME: ${{ secrets.SSH_USERNAME }} # use pre-configured ssh_username value
+          SERVER_DESTINATION: /var/www/xxx/ # put your repo files on this directory of the remote server
 
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
