@@ -84,13 +84,15 @@ module.exports = {
                     '/ES6/理解this',
                     '/ES6/发布订阅和观察者模式',
                     '/ES6/浏览器和Node.js的事件循环',
-                    '/ES6/高阶函数之call，apply'
+                    '/ES6/高阶函数之call，apply',
+                    '/ES6/防抖,节流'
                 ]
             },
             {
                 title:'正则系列',
                 children:[
                     '/正则系列/正则系列1',
+                    '/正则系列/正则系列2'
                 ]
             },
             {
@@ -105,7 +107,8 @@ module.exports = {
                 children: [
                     '/linux/basic',
                     '/linux/nginx',
-                    '/linux/数据库'
+                    '/linux/数据库',
+                    '/linux/shell脚本语法学习'
                 ]
             },
             {

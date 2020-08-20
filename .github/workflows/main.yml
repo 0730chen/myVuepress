@@ -11,12 +11,20 @@ jobs:
   deploy: # job_id
     runs-on: ubuntu-latest # environment: use ubuntu
 
+    strategy:
+      matrix:
+        node-version: [10.x]
+
     steps: # automated steps
       - name: Checkout Repo # 1. checkout repo
         uses: actions/checkout@v2 # Use a third party action (https://github.com/actions/checkout)
-
+      - name: Use Node.js ${{ matrix.node-version }} # 步骤2
+          uses: actions/setup-node@v1 # 作用：安装nodejs
+          with:
+            node-version: ${{ matrix.node-version }} # 版本
       - name: Deploy to Server # 2. deploy to remote server
         uses: AEnterprise/rsync-deploy@v1.0 # Use a third party action (https://github.com/AEnterprise/rsync-deploy)
+      - name: run deploy.sh #运行脚本
         env:
           DEPLOY_KEY: ${{secrets.DEPLOY_KEY}} # use pre-configured secret (the private key)
           GITHUB_TOKEN: ${{secrets.TOKEN}}
@@ -25,6 +33,5 @@ jobs:
           FOLDER: ./ # folder to push (./ is the root of current repo)
           SERVER_IP: ${{secrets.SSH_HOST}} # use pre-configured ssh_host value (e.g., IP or domain.com）
           USERNAME: ${{secrets.SSH_USERNAME}} # use pre-configured ssh_username value
-          SERVER_DESTINATION: /var/www/xxx/ # put your repo files on this directory of the remote server
-        
+          SERVER_DESTINATION: /home/Vuepress/ # put your repo files on this directory of the remote server
 

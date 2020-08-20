@@ -35,6 +35,15 @@ cd      |切换命令 | cd 目录名
 mv | 移动文件 | mv 源文件(路径) 目标文件(路径)
 bash | 执行脚本路径 | bash 脚本文件 |
 
+
+#### 如何创建你的SSH密匙对
+
+```shell script
+ssh-keygen -t rsa -f mysite
+
+chmod 600 -R ~/.ssh
+```
+
 ##### git命令
 
 * git是一个版本控制管理工具
