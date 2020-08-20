@@ -18,10 +18,6 @@ jobs:
     steps: # automated steps
       - name: Checkout Repo # 1. checkout repo
         uses: actions/checkout@v2 # Use a third party action (https://github.com/actions/checkout)
-      - name: Use Node.js ${{ matrix.node-version }} # 步骤2
-          uses: actions/setup-node@v1 # 作用：安装nodejs
-          with:
-            node-version: ${{ matrix.node-version }} # 版本
       - name: Deploy to Server # 2. deploy to remote server
         uses: AEnterprise/rsync-deploy@v1.0 # Use a third party action (https://github.com/AEnterprise/rsync-deploy)
       - name: run deploy.sh #运行脚本
