@@ -18,9 +18,10 @@ jobs:
     steps: # automated steps
       - name: Checkout Repo # 1. checkout repo
         uses: actions/checkout@v2 # Use a third party action (https://github.com/actions/checkout)
+
       - name: Deploy to Server # 2. deploy to remote server
         uses: AEnterprise/rsync-deploy@v1.0 # Use a third party action (https://github.com/AEnterprise/rsync-deploy)
-      - name: run deploy.sh #运行脚本
+
         env:
           DEPLOY_KEY: ${{secrets.DEPLOY_KEY}} # use pre-configured secret (the private key)
           GITHUB_TOKEN: ${{secrets.TOKEN}}
