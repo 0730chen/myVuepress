@@ -96,6 +96,13 @@ module.exports = {
                 ]
             },
             {
+                title:'微信相关',
+                children:[
+                    '/微信相关/微信公众号开发1',
+                    '/微信相关/小程序1'
+                ]
+            },
+            {
                 title: 'Mongodb手册',
                 children: [
                     '/Mongodb/mongodb',
