@@ -1,6 +1,4 @@
 
-rm -rf dist
-
 npm run docs:build
 
 git add .

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue指令 | Atom</title>
+    <meta name="description" content="敲就硬敲">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.99d7e448.css" as="style"><link rel="preload" href="/assets/js/app.73e00696.js" as="script"><link rel="preload" href="/assets/js/2.1a8d657f.js" as="script"><link rel="preload" href="/assets/js/45.7dd323ec.js" as="script"><link rel="prefetch" href="/assets/js/10.51804642.js"><link rel="prefetch" href="/assets/js/100.81c226ea.js"><link rel="prefetch" href="/assets/js/101.9cfe57c7.js"><link rel="prefetch" href="/assets/js/102.52f0e6ed.js"><link rel="prefetch" href="/assets/js/103.0b716944.js"><link rel="prefetch" href="/assets/js/104.d7c4834c.js"><link rel="prefetch" href="/assets/js/105.f7dfd3cc.js"><link rel="prefetch" href="/assets/js/106.7957c2a4.js"><link rel="prefetch" href="/assets/js/107.22ca02ce.js"><link rel="prefetch" href="/assets/js/11.9abecf02.js"><link rel="prefetch" href="/assets/js/12.e7526f61.js"><link rel="prefetch" href="/assets/js/13.30b8d56e.js"><link rel="prefetch" href="/assets/js/14.26de1bc9.js"><link rel="prefetch" href="/assets/js/15.f1006448.js"><link rel="prefetch" href="/assets/js/16.ec7c42d2.js"><link rel="prefetch" href="/assets/js/17.f883f8f4.js"><link rel="prefetch" href="/assets/js/18.611e35de.js"><link rel="prefetch" href="/assets/js/19.8ef311d4.js"><link rel="prefetch" href="/assets/js/20.be902132.js"><link rel="prefetch" href="/assets/js/21.8d6a031a.js"><link rel="prefetch" href="/assets/js/22.61d68285.js"><link rel="prefetch" href="/assets/js/23.399341ac.js"><link rel="prefetch" href="/assets/js/24.0b619240.js"><link rel="prefetch" href="/assets/js/25.bcb361e5.js"><link rel="prefetch" href="/assets/js/26.52367e54.js"><link rel="prefetch" href="/assets/js/27.ab88cfda.js"><link rel="prefetch" href="/assets/js/28.46d9ada8.js"><link rel="prefetch" href="/assets/js/29.cec2ce1c.js"><link rel="prefetch" href="/assets/js/3.0e42c26a.js"><link rel="prefetch" href="/assets/js/30.fdff9633.js"><link rel="prefetch" href="/assets/js/31.3ea78e68.js"><link rel="prefetch" href="/assets/js/32.0fa7ff5d.js"><link rel="prefetch" href="/assets/js/33.a1d2518b.js"><link rel="prefetch" href="/assets/js/34.bef7bb82.js"><link rel="prefetch" href="/assets/js/35.1f114609.js"><link rel="prefetch" href="/assets/js/36.2ff08ea5.js"><link rel="prefetch" href="/assets/js/37.07980940.js"><link rel="prefetch" href="/assets/js/38.60b316c0.js"><link rel="prefetch" href="/assets/js/39.8daaed28.js"><link rel="prefetch" href="/assets/js/4.59116900.js"><link rel="prefetch" href="/assets/js/40.672f1f44.js"><link rel="prefetch" href="/assets/js/41.8cb1aa5d.js"><link rel="prefetch" href="/assets/js/42.64fc938e.js"><link rel="prefetch" href="/assets/js/43.81e96cba.js"><link rel="prefetch" href="/assets/js/44.0aa67550.js"><link rel="prefetch" href="/assets/js/46.c9164f69.js"><link rel="prefetch" href="/assets/js/47.375c4a1e.js"><link rel="prefetch" href="/assets/js/48.1ccc0a5d.js"><link rel="prefetch" href="/assets/js/49.7933450b.js"><link rel="prefetch" href="/assets/js/5.b29a7376.js"><link rel="prefetch" href="/assets/js/50.815578ce.js"><link rel="prefetch" href="/assets/js/51.822996fe.js"><link rel="prefetch" href="/assets/js/52.e9b6d39c.js"><link rel="prefetch" href="/assets/js/53.16ec8c27.js"><link rel="prefetch" href="/assets/js/54.427c2459.js"><link rel="prefetch" href="/assets/js/55.e1eebcca.js"><link rel="prefetch" href="/assets/js/56.da72f454.js"><link rel="prefetch" href="/assets/js/57.70d624a2.js"><link rel="prefetch" href="/assets/js/58.d866829c.js"><link rel="prefetch" href="/assets/js/59.0f1adc8a.js"><link rel="prefetch" href="/assets/js/6.4da7a51f.js"><link rel="prefetch" href="/assets/js/60.e177ee55.js"><link rel="prefetch" href="/assets/js/61.3c660859.js"><link rel="prefetch" href="/assets/js/62.dc7351e8.js"><link rel="prefetch" href="/assets/js/63.ffc49a04.js"><link rel="prefetch" href="/assets/js/64.755cee56.js"><link rel="prefetch" href="/assets/js/65.135c3f53.js"><link rel="prefetch" href="/assets/js/66.e7ee2525.js"><link rel="prefetch" href="/assets/js/67.8fadf8c1.js"><link rel="prefetch" href="/assets/js/68.0465f173.js"><link rel="prefetch" href="/assets/js/69.08e099d7.js"><link rel="prefetch" href="/assets/js/7.bd01934a.js"><link rel="prefetch" href="/assets/js/70.6f81b719.js"><link rel="prefetch" href="/assets/js/71.d8aadfb6.js"><link rel="prefetch" href="/assets/js/72.52ad977b.js"><link rel="prefetch" href="/assets/js/73.6644fa2a.js"><link rel="prefetch" href="/assets/js/74.e238ac32.js"><link rel="prefetch" href="/assets/js/75.cac68ee2.js"><link rel="prefetch" href="/assets/js/76.ec41a7d3.js"><link rel="prefetch" href="/assets/js/77.6370f3e5.js"><link rel="prefetch" href="/assets/js/78.cfb94104.js"><link rel="prefetch" href="/assets/js/79.3854c21d.js"><link rel="prefetch" href="/assets/js/8.e8fbb6a4.js"><link rel="prefetch" href="/assets/js/80.4dbe7fb9.js"><link rel="prefetch" href="/assets/js/81.90cea02f.js"><link rel="prefetch" href="/assets/js/82.8d78aba7.js"><link rel="prefetch" href="/assets/js/83.bfcff520.js"><link rel="prefetch" href="/assets/js/84.1689c4dd.js"><link rel="prefetch" href="/assets/js/85.73ce1517.js"><link rel="prefetch" href="/assets/js/86.c20ecb0d.js"><link rel="prefetch" href="/assets/js/87.c9e5fea7.js"><link rel="prefetch" href="/assets/js/88.796ded49.js"><link rel="prefetch" href="/assets/js/89.89834b46.js"><link rel="prefetch" href="/assets/js/9.25f96e20.js"><link rel="prefetch" href="/assets/js/90.a0ae8d33.js"><link rel="prefetch" href="/assets/js/91.8f0b4368.js"><link rel="prefetch" href="/assets/js/92.3b0ac6e9.js"><link rel="prefetch" href="/assets/js/93.1442273f.js"><link rel="prefetch" href="/assets/js/94.247dc803.js"><link rel="prefetch" href="/assets/js/95.137c0bf5.js"><link rel="prefetch" href="/assets/js/96.971260e3.js"><link rel="prefetch" href="/assets/js/97.bf8205ce.js"><link rel="prefetch" href="/assets/js/98.73e7fec7.js"><link rel="prefetch" href="/assets/js/99.84651d54.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.99d7e448.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Atom</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习资源" class="dropdown-title"><span class="title">学习资源</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="http://www.imooc.com/article/261756" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  前端学习路线
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习资源" class="dropdown-title"><span class="title">学习资源</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="http://www.imooc.com/article/261756" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  前端学习路线
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>常用工具和库</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/tool/Jquery.html" class="sidebar-link">Jquery常用api使用教程</a></li><li><a href="/tool/Jquery2.html" class="sidebar-link">Jquery学习</a></li><li><a href="/tool/Superagent.html" class="sidebar-link">SuperAgent和cheerio库的使用</a></li><li><a href="/tool/axios.html" class="sidebar-link">axios的基本用法</a></li><li><a href="/tool/CV基本原理.html" class="sidebar-link">CV制作的基本原理</a></li><li><a href="/tool/数据库的使用.html" class="sidebar-link">配置Vue项目上线</a></li><li><a href="/tool/跨域详解.html" class="sidebar-link">跨域及跨域解决方案</a></li><li><a href="/tool/微信js-sdk配置.html" class="sidebar-link">微信Js-sdk配置</a></li><li><a href="/tool/koa2与express的差异.html" class="sidebar-link">koa2和express两种框架模型对比</a></li><li><a href="/tool/Node调用脚本.html" class="sidebar-link">Node调用脚本</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/Font/" class="sidebar-heading clickable router-link-active"><span>前端知识</span> <span class="arrow right"></span></a> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>ES6常用方法</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>正则系列</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>微信相关</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Mongodb手册</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Linux</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Flutter</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>设计模式</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>工作记录</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h4 id="vue指令"><a href="#vue指令" class="header-anchor">#</a> Vue指令</h4> <ul><li>全局自定义指令</li></ul> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+Vue<span class="token punctuation">.</span><span class="token function">directive</span><span class="token punctuation">(</span><span class="token string">'x'</span><span class="token punctuation">,</span><span class="token punctuation">{</span>
+    <span class="token function-variable function">inserted</span><span class="token punctuation">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">el</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    el<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'x'</span><span class="token punctuation">)</span>    
+<span class="token punctuation">}</span><span class="token punctuation">)</span>    
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">//自定义指令 v-x ，点击时打印x</span>
+<span class="token comment">//template:`&lt;div v-x&gt;x&lt;/div&gt;`</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><ul><li>定义局部指令</li></ul> <div class="language-vuejs extra-class"><pre class="language-text"><code>const vm = new Vue({
+    directives:{
+    x:{
+        inserted:function(el){
+        el.addEventListener('click',()=&gt;{
+        console.log(x)    
+    })     
+    }
+    }
+    } 
+})
+template:`&lt;div v-x&gt;x&lt;/div&gt;`
+
+
+</code></pre></div><p>指令的钩子函数</p> <ul><li>bind:只调用一次，指令第一次绑定到元素时调用。在这里可以进行一次性的初始化设置。</li> <li>inserted：被绑定元素插入父节点时调用 (仅保证父节点存在，但不一定已被插入文档中)。</li> <li>update：所在组件的 VNode 更新时调用，但是可能发生在其子 VNode 更新之前。指令的值可能发生了改变，也可能没有。但是你可以通过比较更新前后的值来忽略不必要的模板更新。</li></ul> <p>自定义指令简写</p> <div class="language-vuejs extra-class"><pre class="language-text"><code>Vue.directive('color-swatch', function (el, binding) {
+  el.style.backgroundColor = binding.value
+})
+</code></pre></div><h4 id="mixins混合"><a href="#mixins混合" class="header-anchor">#</a> mixins混合</h4> <p>混入也可以进行全局注册。使用时格外小心！一旦使用全局混入，它将影响每一个之后创建的 Vue 实例。使用恰当时，这可以用来为自定义选项注入处理逻辑。
+使用情景：vue的options选项需要复用时mixins</p> <ul><li>mixins注册</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> myMixin <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">created</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">hello</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">hello</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'hello from mixin!'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 定义一个使用混入对象的组件</span>
+<span class="token keyword">var</span> Component <span class="token operator">=</span> Vue<span class="token punctuation">.</span><span class="token function">extend</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  mixins<span class="token punctuation">:</span> <span class="token punctuation">[</span>myMixin<span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">var</span> component <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Component</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div><p>mixins中也有data,created,mounted等等参数
+mixins接受一个数组
+当组件和混入对象含有同名选项时，这些选项将以恰当的方式进行“合并”。
+比如，数据对象在内部会进行递归合并，并在发生冲突时以组件数据优先。
+以组件的数据的优先
+data会进行合并</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> mixin <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">data</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      message<span class="token punctuation">:</span> <span class="token string">'hello'</span><span class="token punctuation">,</span>
+      foo<span class="token punctuation">:</span> <span class="token string">'abc'</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  mixins<span class="token punctuation">:</span> <span class="token punctuation">[</span>mixin<span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">data</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      message<span class="token punctuation">:</span> <span class="token string">'goodbye'</span><span class="token punctuation">,</span>
+      bar<span class="token punctuation">:</span> <span class="token string">'def'</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">created</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>$data<span class="token punctuation">)</span>
+    <span class="token comment">// =&gt; { message: &quot;goodbye&quot;, foo: &quot;abc&quot;, bar: &quot;def&quot; }</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>created都会触发</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> mixin <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">created</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'混入对象的钩子被调用'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  mixins<span class="token punctuation">:</span> <span class="token punctuation">[</span>mixin<span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">created</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'组件钩子被调用'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// =&gt; &quot;混入对象的钩子被调用&quot;</span>
+<span class="token comment">// =&gt; &quot;组件钩子被调用&quot;</span>
+</code></pre></div><p>值为对象的选项，例如 methods、components 和 directives，将被合并为同一个对象。两个对象键名冲突时，取组件对象的键值对。</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> mixin <span class="token operator">=</span> <span class="token punctuation">{</span>
+  methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">foo</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'foo'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">conflicting</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'from mixin'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">var</span> vm <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  mixins<span class="token punctuation">:</span> <span class="token punctuation">[</span>mixin<span class="token punctuation">]</span><span class="token punctuation">,</span>
+  methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">bar</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'bar'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">conflicting</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'from self'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+vm<span class="token punctuation">.</span><span class="token function">foo</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// =&gt; &quot;foo&quot;</span>
+vm<span class="token punctuation">.</span><span class="token function">bar</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// =&gt; &quot;bar&quot;</span>
+vm<span class="token punctuation">.</span><span class="token function">conflicting</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// =&gt; &quot;from self&quot;</span>
+</code></pre></div><ul><li>全局注册</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>Vue<span class="token punctuation">.</span><span class="token function">mixin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function-variable function">created</span><span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> myOption <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$options<span class="token punctuation">.</span>myOption
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>myOption<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>myOption<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  myOption<span class="token punctuation">:</span> <span class="token string">'hello!'</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">// =&gt; &quot;hello!&quot;</span>
+</code></pre></div><h4 id="extends"><a href="#extends" class="header-anchor">#</a> extends</h4> <p>允许声明扩展另一个组件(可以是一个简单的选项对象或构造函数)，而无需使用 Vue.extend。这主要是为了便于扩展单文件组件。
+这和 mixins 类似
+extends接受一个对象，可以是多个mixins</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">var</span> CompA <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span>
+
+<span class="token comment">// 在没有调用 `Vue.extend` 时候继承 CompA</span>
+<span class="token keyword">var</span> CompB <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token keyword">extends</span><span class="token punctuation">:</span> CompA<span class="token punctuation">,</span>
+  <span class="token operator">...</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="provide-inject"><a href="#provide-inject" class="header-anchor">#</a> provide/ inject</h4> <p>这个是两个一起使用</p> <ul><li>provide：Object | () =&gt; Object</li> <li>inject：Array<string> | { [key: string]: string | Symbol | Object }</string></li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 父级组件提供 'foo'</span>
+<span class="token keyword">var</span> Provider <span class="token operator">=</span> <span class="token punctuation">{</span>
+  provide<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    foo<span class="token punctuation">:</span> <span class="token string">'bar'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 子组件注入 'foo'</span>
+<span class="token keyword">var</span> Child <span class="token operator">=</span> <span class="token punctuation">{</span>
+  inject<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'foo'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token function">created</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>foo<span class="token punctuation">)</span> <span class="token comment">// =&gt; &quot;bar&quot;</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.73e00696.js" defer></script><script src="/assets/js/2.1a8d657f.js" defer></script><script src="/assets/js/45.7dd323ec.js" defer></script>
+  </body>
+</html>
