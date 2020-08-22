@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/linux/Docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/linux/Docker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/linux/nginx.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/linux/nginx.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +241,8 @@
       <workItem from="1597935157604" duration="4467000" />
       <workItem from="1598011269143" duration="697000" />
       <workItem from="1598013421448" duration="6513000" />
-      <workItem from="1598028638616" duration="78000" />
+      <workItem from="1598028638616" duration="791000" />
+      <workItem from="1598058338392" duration="1690000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>

@@ -29,6 +29,12 @@ sudo usermod -aG docker $USER
 sudo service docker start
 
 sudo systemctl start docker
+
+#指定启动的端口映射
+#-d代表让容器在后台运行 
+#-p 支持的格式有 hostPort:containerPort、ip:hostPort:containerPort、 ip::containerPort。
+sudo docker run -d -p 5000:5000 containername
+
 ```
 
 #### image
@@ -76,12 +82,16 @@ EXPOSE 3000
 
 #### 构建image
 ```shell script
-#构建项目名 -t指定image名
-docker image build -t name
+#构建项目名 -t指定image名  tag就是容器标签名
+docker image build -tag name
+
+# 从git仓库中构建
+docker build https://github.com/docker/rootfs.git#container:docker
+
 ```
 
 #### 生成容器参数
-
+docker run [option] <镜像名> [向启动容器中传入的命令]
 ```shell script
 docker container run -p 8000:3000 -it koa-demo /bin/bash
 
@@ -113,4 +123,6 @@ docker container ls --all
 * docker container logs or docker container logs -it 就要用这个命令查看输出。
 * docker container exec命令用于进入一个正在运行的 docker 容器。如果docker run命令运行容器的时候，没有使用-it参数，就要用这个命令进入容器。一旦进入了容器，就可以在容器的 Shell 执行命令了。
 * docker container cp命令用于从正在运行的 Docker 容器里面，将文件拷贝到本机。下面是拷贝到当前目录的写法。
+
+* docker logs -f containerid 查询容器打印的log
   
