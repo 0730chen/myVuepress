@@ -84,6 +84,9 @@ EXPOSE 3000
 ```shell script
 #构建项目名 -t指定image名  tag就是容器标签名
 docker image build -tag name
+docker build -t nginx-centos:6.7 .
+
+#t参数是image标签，, 代表是从当前目录寻找Dockerfile文件
 
 # 从git仓库中构建
 docker build https://github.com/docker/rootfs.git#container:docker
@@ -109,6 +112,8 @@ docker container run -p 8000:3000 -it koa-demo:0.0.1 /bin/bash
 ```shell script
 docker container ls
 
+docker container stop option
+
 docker container kill [containerID]
 # 查出容器的 ID
 docker container ls --all
@@ -125,4 +130,7 @@ docker container ls --all
 * docker container cp命令用于从正在运行的 Docker 容器里面，将文件拷贝到本机。下面是拷贝到当前目录的写法。
 
 * docker logs -f containerid 查询容器打印的log
+* docker ps -a 列出所有的容器
+* docker image inspect --format='{{.RepoTags}} {{.Id}} {{.Parent}}' $(docker image ls -q --filter since=xxxx） 查询相关容器
+* docker container rm ID或者tag名 删除容器
   

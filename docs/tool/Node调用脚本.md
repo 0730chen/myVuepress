@@ -60,6 +60,8 @@ exec('"my script.cmd" a b', (err, stdout, stderr) => {
 
 child_process.exec(command[, options][, callback])
 
+! 文件路径要按照当前脚本的执行路径填写
+
 * command 表示要执行的命令
 
 ```javascript

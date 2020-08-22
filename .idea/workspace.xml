@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/depoly.sh" beforeDir="false" afterPath="$PROJECT_DIR$/depoly.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/linux/Docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/linux/Docker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/tool/Node调用脚本.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/tool/Node调用脚本.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +252,7 @@
       <workItem from="1598013421448" duration="6513000" />
       <workItem from="1598028638616" duration="791000" />
       <workItem from="1598058338392" duration="2804000" />
-      <workItem from="1598070657400" duration="6142000" />
+      <workItem from="1598070657400" duration="8072000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
