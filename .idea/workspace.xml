@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/linux/Docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/linux/Docker.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/linux/nginx.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/linux/nginx.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.docs:build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="ajax.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../Node-API/ajax.js" working-dir="$PROJECT_DIR$/../Node-API">
       <method v="2" />
     </configuration>
@@ -87,9 +86,6 @@
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../Node-API/app.js" working-dir="$PROJECT_DIR$/../Node-API">
-      <method v="2" />
-    </configuration>
-    <configuration name="text.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="E:/H5/Node-API/Node-API/text.js" working-dir="E:/H5/Node-API/Node-API">
       <method v="2" />
     </configuration>
     <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -102,13 +98,23 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../koa2-cli/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.docs:build" />
         <item itemvalue="Node.js.ajax.js" />
         <item itemvalue="Node.js.app.js (1)" />
         <item itemvalue="Node.js.app.js" />
-        <item itemvalue="Node.js.text.js" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +248,8 @@
       <workItem from="1598011269143" duration="697000" />
       <workItem from="1598013421448" duration="6513000" />
       <workItem from="1598028638616" duration="791000" />
-      <workItem from="1598058338392" duration="1690000" />
+      <workItem from="1598058338392" duration="2804000" />
+      <workItem from="1598070657400" duration="6142000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
@@ -279,17 +286,17 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../keepcount/src/registerServiceWorker.js" />
-        <option value="$PROJECT_DIR$/../keepcount/src/main.js.map" />
-        <option value="$PROJECT_DIR$/../keepcount/src/main.js" />
         <option value="$PROJECT_DIR$/../keepcount/src/registerServiceWorker.js.map" />
-        <option value="$PROJECT_DIR$/../keepcount/tests/unit/example.spec.js.map" />
-        <option value="$PROJECT_DIR$/../keepcount/tests/unit/example.spec.js" />
-        <option value="$PROJECT_DIR$/../keepcount/src/router/index.js" />
-        <option value="$PROJECT_DIR$/../keepcount/src/router/index.js.map" />
-        <option value="$PROJECT_DIR$/../keepcount/src/store/index.js" />
+        <option value="$PROJECT_DIR$/../keepcount/src/main.js" />
+        <option value="$PROJECT_DIR$/../keepcount/src/main.js.map" />
+        <option value="$PROJECT_DIR$/../keepcount/src/registerServiceWorker.js" />
         <option value="$PROJECT_DIR$/../keepcount/src/store/index.js.map" />
-        <option value="$PROJECT_DIR$/../koa2-cli/myApp/index.js" />
+        <option value="$PROJECT_DIR$/../keepcount/src/store/index.js" />
+        <option value="$PROJECT_DIR$/../koa2-cli/index.js" />
+        <option value="$PROJECT_DIR$/../keepcount/src/router/index.js.map" />
+        <option value="$PROJECT_DIR$/../keepcount/src/router/index.js" />
+        <option value="$PROJECT_DIR$/../keepcount/tests/unit/example.spec.js" />
+        <option value="$PROJECT_DIR$/../keepcount/tests/unit/example.spec.js.map" />
         <option value="$PROJECT_DIR$/../fish-ui/src/main.js" />
       </list>
     </option>
