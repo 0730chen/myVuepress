@@ -119,6 +119,7 @@ module.exports = {
                     '/linux/nginx',
                     '/linux/数据库',
                     '/linux/shell脚本语法学习',
+                    '/linux/Docker基础',
                     '/linux/dockerFile配置文件',
                 ]
             },
