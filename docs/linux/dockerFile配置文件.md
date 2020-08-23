@@ -7,6 +7,7 @@ title: 如何使用Dockefile生成镜像文件
 DockerFile是构建docker图像的基本配置文件，主要作用就是描述图像的构成文件
 
 官方的例子
+
 ```javascript
 FROM php:5.6-apache
 RUN a2enmod rewrite
@@ -57,14 +58,13 @@ FORM可以配置多个环境
 COPY docker-entrypoint.sh /entrypoint.sh
 ```
 
-
 它可以将文件（与Dockerfile位于同一目录中）复制到容器中。
 
 #### WORKDIR
 
 设置当前的工作目录，默认工作目录是当前目录
 
-#### RUN 
+#### RUN  
 
 相当于shell，可以执行一些脚本命令，
 
@@ -86,6 +86,6 @@ RUN && git init\
 
 将容器 3000 端口暴露出来， 允许外部连接这个端口。
 
-#### CMD 
+#### CMD
 
-运行命令行命令 CMD['node','app.js']
+#### 运行命令行命令 CMD['node','app.js']

@@ -84,6 +84,9 @@ docker container run -p 8000:3000 -it koa-demo /bin/bash
 
 docker container run -p 8000:3000 -it koa-demo:0.0.1 /bin/bash
 
+docker container run -d -p 3000:3000 -it music:1.0
+
+* -d,代表后台运行
 * -p参数：容器的 3000 端口映射到本机的 8000 端口。
 * -it参数：容器的 Shell 映射到当前的 Shell，然后你在本机窗口输入的命令，就会传入容器。
 * koa-demo:0.0.1：image 文件的名字（如果有标签，还需要提供标签，默认是 latest 标签）。
