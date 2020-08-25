@@ -1,6 +1,7 @@
 module.exports = {
     // 设置网站标题
     title: 'Atom',
+    theme: 'reco',
     // 设置输出目录
     description: "敲就硬敲",
     dest: './dist',
