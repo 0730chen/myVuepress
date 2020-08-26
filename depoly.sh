@@ -1,7 +1,5 @@
 
-npm run docs:build
-
-git add .
+npm run docs:build && git add .
 
 git commit -m "$*"
 

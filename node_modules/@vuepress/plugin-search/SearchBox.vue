@@ -1,36 +1,43 @@
 <template>
   <div class="search-box">
     <input
-      @input="query = $event.target.value"
+      ref="input"
       aria-label="Search"
       :value="query"
       :class="{ 'focused': focused }"
       :placeholder="placeholder"
       autocomplete="off"
       spellcheck="false"
+      @input="query = $event.target.value"
       @focus="focused = true"
       @blur="focused = false"
       @keyup.enter="go(focusIndex)"
       @keyup.up="onUp"
       @keyup.down="onDown"
-      ref="input"
     >
     <ul
-      class="suggestions"
       v-if="showSuggestions"
+      class="suggestions"
       :class="{ 'align-right': alignRight }"
       @mouseleave="unfocus"
     >
       <li
-        class="suggestion"
         v-for="(s, i) in suggestions"
+        :key="i"
+        class="suggestion"
         :class="{ focused: i === focusIndex }"
         @mousedown="go(i)"
         @mouseenter="focus(i)"
       >
-        <a :href="s.path" @click.prevent>
+        <a
+          :href="s.path"
+          @click.prevent
+        >
           <span class="page-title">{{ s.title || s.path }}</span>
-          <span v-if="s.header" class="header">&gt; {{ s.header.title }}</span>
+          <span
+            v-if="s.header"
+            class="header"
+          >&gt; {{ s.header.title }}</span>
         </a>
       </li>
     </ul>
@@ -38,8 +45,12 @@
 </template>
 
 <script>
+import matchQuery from './match-query'
+
 /* global SEARCH_MAX_SUGGESTIONS, SEARCH_PATHS, SEARCH_HOTKEYS */
 export default {
+  name: 'SearchBox',
+
   data () {
     return {
       query: '',
@@ -47,15 +58,6 @@ export default {
       focusIndex: 0,
       placeholder: undefined
     }
-  },
-
-  mounted () {
-    this.placeholder = this.$site.themeConfig.searchPlaceholder || ''
-    document.addEventListener('keydown', this.onHotkey)
-  },
-
-  beforeDestroy () {
-    document.removeEventListener('keydown', this.onHotkey)
   },
 
   computed: {
@@ -76,11 +78,6 @@ export default {
       const { pages } = this.$site
       const max = this.$site.themeConfig.searchMaxSuggestions || SEARCH_MAX_SUGGESTIONS
       const localePath = this.$localePath
-      const matches = item => (
-        item
-        && item.title
-        && item.title.toLowerCase().indexOf(query) > -1
-      )
       const res = []
       for (let i = 0; i < pages.length; i++) {
         if (res.length >= max) break
@@ -95,13 +92,13 @@ export default {
           continue
         }
 
-        if (matches(p)) {
+        if (matchQuery(query, p)) {
           res.push(p)
         } else if (p.headers) {
           for (let j = 0; j < p.headers.length; j++) {
             if (res.length >= max) break
             const h = p.headers[j]
-            if (matches(h)) {
+            if (h.title && matchQuery(query, p, h.title)) {
               res.push(Object.assign({}, p, {
                 path: p.path + '#' + h.slug,
                 header: h
@@ -119,6 +116,15 @@ export default {
       const repo = this.$site.repo ? 1 : 0
       return navCount + repo <= 2
     }
+  },
+
+  mounted () {
+    this.placeholder = this.$site.themeConfig.searchPlaceholder || ''
+    document.addEventListener('keydown', this.onHotkey)
+  },
+
+  beforeDestroy () {
+    document.removeEventListener('keydown', this.onHotkey)
   },
 
   methods: {
@@ -218,7 +224,7 @@ export default {
     background #fff
     width 20rem
     position absolute
-    top 1.5rem
+    top 2 rem
     border 1px solid darken($borderColor, 10%)
     border-radius 6px
     padding 0.4rem
