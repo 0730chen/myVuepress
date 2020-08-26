@@ -1,6 +1,6 @@
 ---
 title: 手写Promise
-data: 2020-8-26
+date: 2020-8-26
 categories:
 - Function
 tags:
