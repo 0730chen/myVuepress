@@ -41,7 +41,6 @@ module.exports = {
                     '/Font/轮播图',
                     '/Font/scss',
                     '/Font/瀑布流实现原理',
-                    '/Font/轮播图',
                     '/Font/Dom事件',
                     '/Font/JS基础知识',
                     '/Font/JS对象',
@@ -79,7 +78,8 @@ module.exports = {
                     '/Font/面试',
                     '/Font/koa2与express的差异',
                     '/Font/服务端渲染SSR',
-                    '/Font/Nest(1)'
+                    '/Font/Nest(1)',
+                    '/Font/canvas(1)'
                 ]
             },
             {
