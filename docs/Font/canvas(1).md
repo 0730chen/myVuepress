@@ -11,6 +11,7 @@ tags:
 #### 在移动端如何将一个页面生成图片并保存
 
 * 使用现在的npm插件html2canvas [文档](http://html2canvas.hertzen.com/)
+* 使用Canvas2Image将canvas转换成img图片
 
 ```shell script
 npm install html2canvas --save
@@ -26,10 +27,53 @@ npm install html2canvas --save
 ```
 
 ```javascript
+  createPicture(){
+      let dom = this.$refs['body']
+      let width = dom.offsetWidth
+      let height = dom.offsetHeight
+      let canvasdom = document.createElement('canvas')
+      let  scale = 2
+      //先放大
+      canvasdom.width = width*scale
+      canvasdom.height = width*scale
+      //在缩小
+      canvasdom.getContext('2d').scale(scale,scale)
 
-html2canvas(document.querySelector("#capture")).then(canvas => {
-    document.body.appendChild(canvas)
-});
+      console.log(width,height);
+      //html2canvas配置
+      let opts={
+        scale:1,
+        canvas:canvasdom,
+        width:width,
+        height:height,
+        useCORS: true
+      }
+
+      html2canvas(dom,opts).then((canvas)=> {
+        let context = canvas.getContext('2d');
+        // 【重要】关闭抗锯齿
+        context.mozImageSmoothingEnabled = false;
+        context.webkitImageSmoothingEnabled = false;
+        context.msImageSmoothingEnabled = false;
+        context.imageSmoothingEnabled = false;
+        let img = Canvas2Image.convertToJPEG(canvas, canvas.width, canvas.height);
+        let u = navigator.userAgent
+        let isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+        let isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if (isAndroid) {
+          //这个是安卓操作系统
+          img.src = canvas.toDataURL() ;
+        }
+        if (isIOS) {
+          //这个是ios操作系统
+          img.src = canvas.toDataURL() .replace("data:image/png;base64,","");
+        }
+        img.id = 'oImg';
+        img.className = 'o-img';
+        console.log(img);
+        document.body.appendChild(img)
+      });
+    }
 
 ```
 

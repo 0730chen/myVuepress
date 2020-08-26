@@ -92,7 +92,8 @@ module.exports = {
                     '/ES6/浏览器和Node.js的事件循环',
                     '/ES6/高阶函数之call，apply',
                     '/ES6/防抖,节流',
-                    '/ES6/深浅拷贝'
+                    '/ES6/深浅拷贝',
+                    '/ES6/Promise'
                 ]
             },
             {
