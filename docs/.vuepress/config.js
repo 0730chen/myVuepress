@@ -6,6 +6,10 @@ module.exports = {
     description: "敲就硬敲",
     dest: './dist',
     themeConfig: {
+        type:'blog',
+        authorAvatar: './images/avator.jpg',
+        logo: './images/avator.jpg',
+        author:'atom',
         sidebarConfig: 'auto',
         nav: require('./nav'),
         sidebar: [
@@ -145,8 +149,12 @@ module.exports = {
                 ]
             }
 
-        ]
-
+        ],
+        record:'MIT Licensed',
+        recordLink:'',
+        cyberSecurityRecord: '浙ICP备19033350号',
+        cyberSecurityLink: '',
+        startYear: '2019'
 
     },
     // 设置站点根路径，如果你在访问的地址是 'www.xxxx.com/wxDocs' 那么就设置成 '/wxDocs/'

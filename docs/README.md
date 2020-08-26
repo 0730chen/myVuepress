@@ -1,8 +1,15 @@
 ---
 home: true
 heroImage: 
-actionText: 快速上手 →
-actionLink: /home/
+actionText: 快速上手 →,
+actionLink: /home/,
+heroImageStyle: {
+  maxHeight: '200px',
+  display: block,
+  margin: '6rem auto 1.5rem',
+  borderRadius: '50%',
+  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
+}
 features:
 - title: 兴趣驱动
   details: 兴趣是最好的老师,也是最好的动力

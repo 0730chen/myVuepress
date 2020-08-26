@@ -7,5 +7,6 @@ module.exports = [
         items: [
             {text: '前端学习路线', link: 'http://www.imooc.com/article/261756'},
         ]
-    }
+    },
+    { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' }
 ]
