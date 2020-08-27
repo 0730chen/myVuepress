@@ -5,6 +5,15 @@ module.exports = {
     // 设置输出目录
     description: "敲就硬敲",
     dest: './dist',
+    plugins: [
+        [
+          "vuepress-plugin-live2d",
+          {
+            "modelName": ['hijiki','tororo','shizuku','izumi'],
+            "mobileShow": false
+          }
+        ]
+      ],
     themeConfig: {
         type:'blog',
         authorAvatar: './images/avator.jpg',
