@@ -1,5 +1,11 @@
 ---
 title: Flutter基本概念和环境搭建
+date: 2019-12-12
+tags:
+- Flutter
+- APP开发
+categories:
+- APP开发
 ---
 
 #### Flutter
@@ -9,11 +15,14 @@ title: Flutter基本概念和环境搭建
 3. 使用Flutter的现代、响应式框架，和一系列基础widget，轻松构建您的用户界面。使用功能强大且灵活的API（针对2D、动画、手势、效果等）解决艰难的UI挑战。
 
 #### 环境搭建
+
 * 首先配置环境变量，配置国内镜像资源
+
 ```shell script
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 ```
+
 * 安装git 工具
 * 安装 Flutter sdk
 * 配置系统环境变量，指向flutter/bin
@@ -26,8 +35,7 @@ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 配置java环境变量，配置 android sdk 环境变量，也可以使用 命令行工具 sdkmanager。方法二的坑很多，慎入！！！
 
 配置完成后在命令行输入 flutter doctor 检查项目是否还缺少库或者包
+
 #### Flutter Hello_world项目
 
 1. as(Andoid studio)工具可以直接新建一个flutter项目，可以在命令行输入 flutter run 就可以跑起来你的第一个flutter项目了
-
-

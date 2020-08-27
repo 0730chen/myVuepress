@@ -49,8 +49,8 @@ chmod 600 -R ~/.ssh
 
 1. 基本命令
 
-命令 | 作用 | 语法 |
------| -----| ----- |  
+命令    | 作用   | 语法   |
+----------| ---------| --------------|  
 git clone | 克隆一个远程项目到本地 | git clone SSH(Https)
 git remote add |添加一个远程仓库地址到git上 | Git remote add 项目地址
 git push | 将本地项目上传到远程仓库上 | git push origin master(仓库名)
