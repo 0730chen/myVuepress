@@ -1,11 +1,12 @@
 ---
 title: 实现call，apply，bind,new
 date: 2020-07-25
-tags:
+tags: 
 - Function
 - this
 categories:
 - Function
+
 ---
 
 #### call函数需求分析

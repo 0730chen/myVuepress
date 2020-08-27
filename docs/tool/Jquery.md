@@ -1,7 +1,12 @@
 ---
 title: Jquery常用api使用教程
 data: 2019-10-28
-tag: Jquery API 设计模式
+tags: 
+    - Jquery 
+    - API 
+    - 设计模式
+categories: 
+    - API
 ---
 
 #### Jquery常用API操作
@@ -25,7 +30,9 @@ $('div:visible') //选择可见的div元素
 $('div:gt(2)') // 选择所有的div元素，除了前三个
 $('div:animated') // 选择当前处于动画状态的div元素
 ```
-2. 常用的操作元素API
+
+2.常用的操作元素API
+
  ``` javascript
 //添加类名
 $('.class').addClass('xx')//xx是需要添加的类名
@@ -57,16 +64,20 @@ $().insertBefore()
 $().css()
 $().height()
  ```
-3. 链式操作
+
+3.链式操作
 这是Jquery最为优秀的设计思想
+
 ```javascript
 //在选择操作后后续可以继续进行操作
 $().addClass().removeClass().end()//ends 退回到上一次的状态
 ```
-4. Jquery的优势部分
-    * 可以不使用new操作符就可以创建对象，Jquery对象
-    * 函数重载，根据参数不同，有不同作用
-    * 使用闭包隐藏细节，外部只能使用api文档进行操作
-    * getter/setter设计模式 只读，只写
-    * 别名，可以使用$符号代替Jquery
-    * 适配器 可以使用在不同环境中
+
+4.Jquery的优势部分
+
+* 可以不使用new操作符就可以创建对象，Jquery对象
+* 函数重载，根据参数不同，有不同作用
+* 使用闭包隐藏细节，外部只能使用api文档进行操作
+* getter/setter设计模式 只读，只写
+* 别名，可以使用$符号代替Jquery
+* 适配器 可以使用在不同环境中

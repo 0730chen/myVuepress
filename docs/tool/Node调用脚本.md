@@ -1,5 +1,11 @@
 ---
 title: Node调用脚本
+date: 2020-08-21
+tags:
+  - Node
+  - shell
+categories:
+  - 服务端
 ---
 
 ### Node如何在程序中调用脚本
@@ -76,16 +82,11 @@ exec('cat *.js 文件 | wc -l', (error, stdout, stderr) => {
 });
 ```
 
-
-
-
-
 #### execFile
 
 child_process.execFile(file[, args][, options][, callback])
 
-
-* file <string> 要运行的可执行文件的名称或路径。
+* file要运行的可执行文件的名称或路径。
 
 ```javascript
 const { execFile } = require('child_process');
@@ -110,7 +111,6 @@ async function getVersion() {
 getVersion();
 
 ```
-
 
 #### spawn
 
@@ -166,7 +166,7 @@ npm install execa
 
 ```javascript
 const execa = require('execa');
- 
+
 (async () => {
     const {stdout} = await execa('echo', ['unicorns']);
     console.log(stdout);
