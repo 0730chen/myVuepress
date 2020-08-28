@@ -38,9 +38,13 @@ categories:
 ```javascript
     @Post()
     @HttpCode(204)
+
     create() {
-      return 'This action adds a new cat';
+  
+    return 'This action adds a new cat';
+  
     }
+
 ```
 
 #### Headers
@@ -123,3 +127,74 @@ categories:
 #### 使用方法
 
 模块注册在app.module.ts的import中导入
+
+#### 参数接受方法
+
+* 动态路由请求路径为/user/1,此时id为1
+
+```javascript
+@Get(':id')
+
+function(@Param() params):string{
+  console.log(params.id);
+  return `This action returns a #${params.id} cat`;
+}
+
+```
+
+* Post方法
+
+定义一个传递的body的类型
+
+```javascript
+export class CreateCatDto {
+  readonly name: string;
+  readonly age: number;
+  readonly breed: string;
+}
+
+@Post()
+async create(@Body() createCatDto: CreateCatDto) {
+  return 'This action adds a new cat';
+}
+```
+
+#### 全部例子
+
+```javascript
+export class CatsController {
+  @Post()
+  create(@Body() createCatDto: CreateCatDto) {
+    return 'This action adds a new cat';
+  }
+
+  @Get()
+  findAll(@Query() query: ListAllEntities) {
+    return `This action returns all cats (limit: ${query.limit} items)`;
+  }
+
+  @Get(':id')
+  findOne(@Param('id') id: string) {
+    return `This action returns a #${id} cat`;
+  }
+
+  @Put(':id')
+  update(@Param('id') id: string, @Body() updateCatDto: UpdateCatDto) {
+    return `This action updates a #${id} cat`;
+  }
+
+  @Delete(':id')
+  remove(@Param('id') id: string) {
+    return `This action removes a #${id} cat`;
+  }
+}
+```
+
+#### 错误处理
+
+```javascript
+@Get()
+async findAll() {
+  throw new HttpException('Forbidden', HttpStatus.FORBIDDEN);
+}
+```
