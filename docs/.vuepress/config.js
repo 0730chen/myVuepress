@@ -126,6 +126,7 @@ module.exports = {
                 children: [
                     '/Mongodb/mongodb',
                     '/Mongodb/mongodb2',
+                    '/Mongodb/mongooseAPI'
                 ]
             },
             {
