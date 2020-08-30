@@ -1,7 +1,8 @@
 ---
 title: Html的常用标签
 date: 2019-09-20
-tag: Html 标签
+tags:
+  - Html
 ---
 
 #### HTML 的常用标签以及用法
