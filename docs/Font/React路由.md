@@ -1,9 +1,9 @@
 ---
-
 title: React入门
-data: 2019-11-5
-tag: React 路由使用
-
+date: 2019-11-5
+tags:
+  - React
+  - 路由使用
 ---
 
 #### 安装路由 react-router-dom
@@ -104,15 +104,17 @@ export default TitleBar
 
 ```
 
-
 #### 路由组件搭建完成后运行 npm start
-	* 点击问题一时，下方显示问题一组件，
-	* 点击问题二时，下方显示问题二组件
-	* 点击问题三时，下方显示问题三组件
-在其他需要路由导航的组件中可以直接使用import xxx from 'TitleBar'导入这个组件
+
+    * 点击问题一时，下方显示问题一组件，
+    * 点击问题二时，下方显示问题二组件
+    * 点击问题三时，下方显示问题三组件
+
+在其他需要路由导航的组件中可以直接使用 import xxx from 'TitleBar'导入这个组件
 
 #### 组件化有效的节省的代码的重复书写，提高代码的复用率
 
 #### 路由跳转
+
     * 打印this.props 发现有一个history属性
     * 可以使用this.props.push('路径来跳转')

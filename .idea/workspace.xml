@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Font/JsBrith.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/JsBrith.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Font/Koa后端.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/Koa后端.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Font/MVC&amp;&amp;eventBus.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/MVC&amp;&amp;eventBus.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Font/Node异步并发.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/Node异步并发.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/Promise.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/Promise.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/Promise和异步.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/Promise和异步.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/React入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/React入门.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/React登陆组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/React登陆组件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/React组件.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/React组件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/React路由.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/React路由.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/TypeScript.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/TypeScript.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/Typescript(2).md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/Typescript(2).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/redux.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/redux.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/scss.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/scss.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/page-components.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/page-components.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/siteData.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/siteData.js" afterDir="false" />
@@ -264,7 +269,7 @@
       <workItem from="1598535456169" duration="8039000" />
       <workItem from="1598617751035" duration="5567000" />
       <workItem from="1598696550541" duration="7178000" />
-      <workItem from="1598765103003" duration="1820000" />
+      <workItem from="1598765103003" duration="2432000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>

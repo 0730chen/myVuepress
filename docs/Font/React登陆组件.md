@@ -1,7 +1,9 @@
 ---
 title: React实现一个登陆注册组件
-data: 2019-11-13
-tag: React 路由跳转
+date: 2019-11-13
+tags:
+  - React
+  - 路由跳转
 ---
 
 ##### 登陆注册组件
@@ -17,7 +19,7 @@ import {
   Switch,
   Route,
   Link,
-  Redirect
+  Redirect,
 } from "react-router-dom";
 
 //定义一个根组件
@@ -72,14 +74,14 @@ class FromLogin extends React.Component {
   }
   //建立一个事件绑定函数获取输入的
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault();
     //可以从e中拿到输入的名字和密码
     const { getFieldDecorator } = this.props.form;
     this.props.form.validateFields((err, values) => {
       if (!err) {
         //values就是一个对象
-        axios.post("api/login", values).then(res => {
+        axios.post("api/login", values).then((res) => {
           console.log(res);
           if (res.data === "ok") {
             //当请求成功后路径变为/hot
@@ -104,9 +106,10 @@ class FromLogin extends React.Component {
 }
 ```
 
-##### hot组件
+##### hot 组件
 
-1. hot组件是剩余组件的父组件
+1. hot 组件是剩余组件的父组件
+
 ```javascript
 import React from "react";
 import ReactDom from "react-dom";
@@ -116,13 +119,13 @@ class FromLogin extends React.Component {
     super(props);
     this.state = {};
   }
-render(){
-  return(
-    <div>
-    {/*可以在内部添加其他组件*/}
-    剩余组件的父组件
-    </div>
-  )
-}
+  render() {
+    return (
+      <div>
+        {/*可以在内部添加其他组件*/}
+        剩余组件的父组件
+      </div>
+    );
+  }
 }
 ```
