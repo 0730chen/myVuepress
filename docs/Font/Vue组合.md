@@ -1,35 +1,41 @@
 ---
+title: Vue组合
+date: 2019-09-21
+tags:
+ - Vue
 ---
 
 #### Vue自定义指令
 
 1.自定义指令是为了减少DOM操作
 ```javascript
-	// 注册一个全局自定义指令 `v-focus`
-	Vue.directive('focus', {
-  	// 当被绑定的元素插入到 DOM 中时……
-  	inserted: function (el) {
-    	// 聚焦元素
-    	el.focus()
-  			}
-		//注册一个局部指令
-		directives:{
-    		// 指令的定义
-    		inserted: function (el) {
-      		el.focus()
-    		}
-  		}
-	}
-	Vue.direction('demo',{
-		bind:function(el,binding,node){
-			//根据指令参数判断是什么指令
-		}
-	}
-   ```
+ // 注册一个全局自定义指令 `v-focus`
+ Vue.directive('focus', {
+   // 当被绑定的元素插入到 DOM 中时……
+   inserted: function (el) {
+     // 聚焦元素
+     el.focus()
+     }
+  //注册一个局部指令
+  directives:{
+    // 指令的定义
+    inserted: function (el) {
+      el.focus()
+    }
+  }
+}
+Vue.direction('demo',{
+bind:function(el,binding,node){
+//根据指令参数判断是什么指令
+}
+}
+```
+
 然后就可以使用 v-focus v-demo
 2.Mixin
-	混入 (mixin) 提供了一种非常灵活的方式，来分发 Vue 组件中的可复用功能。一个混入对象可以包含任意组件选项。当组件使用混入对象时，所有混入对象的选项将被“混合”进入该组件本身的选项。
-	减少data和created操作
+混入 (mixin) 提供了一种非常灵活的方式，来分发 Vue 组件中的可复用功能。一个混入对象可以包含任意组件选项。当组件使用混入对象时，所有混入对象的选项将被“混合”进入该组件本身的选项。
+减少data和created操作
+
 ```javascript
 //定义一个混入对象
 let myMixin = {
@@ -109,8 +115,8 @@ let  CompB = {
 	};
 
 	// 子组件注入 'foo'
-	let  Child = {
-  	inject: ['foo'],
+ let  Child = {
+   inject: ['foo'],
   	created () {
     	console.log(this.foo) // => "bar"
   		}
