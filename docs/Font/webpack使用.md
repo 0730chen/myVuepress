@@ -142,7 +142,7 @@ tags:
                         loader: path.resolve('./fish.js'),
                         options: {}
                     }]
-                } //使用fish.js来处理这个文件        
+                } //使用fish.js来处理这个文件
             ]
         }
     }
@@ -188,7 +188,7 @@ plugin 是一个class，在每次使用时，需要new一个对象
 ```
 
 1. 必须要有apply方法，该方法webpack会传入一个complier对象作为参数
-2. compiler有众多事件生命周期函数(钩子函数) 使用方法为 compiler.hooks.[function].tap() 例如run,beforeCompile,等待emit 
+2. compiler有众多事件生命周期函数(钩子函数) 使用方法为 compiler.hooks.[function].tap() 例如run,beforeCompile,等待emit
 3. compiler.plugin 函数，从make(开始任务)->compile(编译任务)->after-compiler(编译完后)->emit(即将生成文件)->After-emit(生成后)
 4. compilation对象继承自compiler，可以拿到它的所有内容，也有plugin函数，compilation可以在compiler钩子函数中打印出来的
 5. compilation.assets属性

@@ -8,6 +8,7 @@ tags:
 #### Vue自定义指令
 
 1.自定义指令是为了减少DOM操作
+
 ```javascript
  // 注册一个全局自定义指令 `v-focus`
  Vue.directive('focus', {
@@ -56,10 +57,12 @@ let Component = Vue.extend({
 
 let component = new Component() // => "hello from mixin!"
 ```
+
 Mixin中的选项合并
 data会发生合并，数据对象在内部会进行递归合并，并在发生冲突时以组件数据优先。
 同名钩子函数将合并为一个数组，因此都将被调用。另外，混入对象的钩子将在组件自身钩子之前调用。
 值为对象的选项，例如 methods、components 和 directives，将被合并为同一个对象。两个对象键名冲突时，取组件对象的键值对。
+
 ```javascript
 let mixin = {
   data: function () {
@@ -91,8 +94,10 @@ new Vue({
 })
 
 ```
+
 3.extends
 和Mixin类似
+
 ```javascript
 let  CompA = { ... };
 
@@ -105,21 +110,22 @@ let  CompB = {
 
 4.provide /inject
    provide提供 provide：Object | () => Object
-   inject使用 inject：Array<string> | { [key: string]: string | Symbol | Object }
+   inject使用 inject：Array:string | { [key: string]: string | Symbol | Object }
    这对选项需要一起使用，以允许一个祖先组件向其所有子孙后代注入一个依赖，不论组件层次有多深，并在起上下游关系成立的时间里始终生效。如果你熟悉 React，这与 React 的上下文特性很相似。
-   ```javascript
+
+```javascript
    let Provider = {
-  		provide: {
-    	foo: 'bar'
-  		},		// ...
-	};
+  provide: {
+    foo: 'bar'
+  },// ...
+};
 
 	// 子组件注入 'foo'
  let  Child = {
    inject: ['foo'],
-  	created () {
-    	console.log(this.foo) // => "bar"
-  		}
-  	// ...
+created () {
+  console.log(this.foo) // => "bar"
+  }
+// ...
 	}
-   ```
+```
