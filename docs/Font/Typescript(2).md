@@ -108,3 +108,23 @@ class Xiaoyu extends Fish implements swimming {
 ```
 
 一个类可以实现多个接口，接口可以继承类，接口可以继承接口
+
+#### 类实现接口
+
+constructor是类的内置方法，定义class中的属性
+
+```javascript
+
+interface Chair{
+  width:string
+  //代表函数返回值为空
+  set(){}:void
+}
+
+class ChariFastory implements Chari{
+  width:string
+  constructor(){
+    this.width = ''
+  }
+}
+```

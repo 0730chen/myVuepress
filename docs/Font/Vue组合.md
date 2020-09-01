@@ -120,12 +120,12 @@ let  CompB = {
   },// ...
 };
 
-	// 子组件注入 'foo'
+ // 子组件注入 'foo'
  let  Child = {
    inject: ['foo'],
 created () {
   console.log(this.foo) // => "bar"
   }
 // ...
-	}
+ }
 ```

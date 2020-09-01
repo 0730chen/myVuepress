@@ -88,7 +88,8 @@ module.exports = {
                     '/Font/koa2与express的差异',
                     '/Font/服务端渲染SSR',
                     '/Font/Nest(1)',
-                    '/Font/canvas(1)'
+                    '/Font/canvas(1)',
+                    '/Font/ReactHooks'
                 ]
             },
             {
