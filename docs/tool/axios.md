@@ -154,3 +154,15 @@ axios.get('/user/12345', {
 // 取消请求
 cancel();
 ```
+
+#### Axios添加headers
+
+第一个参数是请求路径，第二个参数是传递的数据，第三个参数是一些配置方式，可以添加headers
+
+```javascript
+axios.get('url',data,{
+  headers:{
+      'Content-Type': 'application/x-www-form-urlencoded'
+  }
+})
+```
