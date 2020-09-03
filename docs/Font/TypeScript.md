@@ -153,3 +153,66 @@ object是一种类型的，它表示非原始型的，即任何不是number，st
 
 declare function create(o: object | null): void;
 ```
+
+#### 联合类型(交集)
+
+组合现有的类型而不是重新创建一个类型,联合类型描述的值可以是几种类型之一。我们使用竖线（|）分隔每种类型，number | string | boolean值的类型也可以是a number，a string或a boolean。
+
+* 如果我们拥有一个联合类型的值，那么我们只能访问联合中所有类型通用的成员。例子中就只能访问layEggs方法
+
+```javascript
+
+interface Bird {
+  fly(): void;
+  layEggs(): void;
+}
+
+interface Fish {
+  swim(): void;
+  layEggs(): void;
+}
+
+declare function getSmallPet(): Fish | Bird;
+
+let pet = getSmallPet();
+pet.layEggs();
+
+// Only available in one of the two possible types
+pet.swim();
+
+```
+
+#### 交叉点类型(并集)
+
+相交类型将多种类型组合为一种。这使您可以将现有类型加在一起，以获得具有所需所有功能的单个类型
+
+```javascript
+interface ErrorHandling {
+  success: boolean;
+  error?: { message: string };
+}
+
+interface ArtworksData {
+  artworks: { title: string }[];
+}
+
+interface ArtistsData {
+  artists: { name: string }[];
+}
+
+// These interfaces are composed to have
+// consistent error handling, and their own data.
+
+type ArtworksResponse = ArtworksData & ErrorHandling;
+type ArtistsResponse = ArtistsData & ErrorHandling;
+
+const handleArtistsResponse = (response: ArtistsResponse) => {
+  if (response.error) {
+    console.error(response.error.message);
+    return;
+  }
+
+  console.log(response.artists);
+};
+
+```

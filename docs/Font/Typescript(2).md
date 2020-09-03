@@ -131,6 +131,7 @@ interface Function {
 ```typescript
 function add(x: string): string; //参数是字符串则返回字符串
 function add(x: number): number; //参数是数字则返回数字
+//根据传入的参数做不同的动作
 function add(x: number | string): number | string {
   if (typeof x === "string") {
     return `haha${x}`;
@@ -139,6 +140,43 @@ function add(x: number | string): number | string {
   }
 }
 //前两次是函数定义，后面是函数实现
+```
+
+#### this和箭头函数
+
+this是函数调用时确定的函数调用对象
+
+```javascript
+interface Card {
+  suit: string;
+  card: number;
+}
+
+interface Deck {
+  suits: string[];
+  cards: number[];
+  createCardPicker(this: Deck): () => Card;
+}
+
+let deck: Deck = {
+  suits: ["hearts", "spades", "clubs", "diamonds"],
+  cards: Array(52),
+  // NOTE: The function now explicitly specifies that its callee must be of type Deck
+  createCardPicker: function (this: Deck) {
+    return () => {
+      let pickedCard = Math.floor(Math.random() * 52);
+      let pickedSuit = Math.floor(pickedCard / 13);
+
+      return { suit: this.suits[pickedSuit], card: pickedCard % 13 };
+    };
+  },
+};
+
+let cardPicker = deck.createCardPicker();
+let pickedCard = cardPicker();
+
+alert("card: " + pickedCard.card + " of " + pickedCard.suit);
+
 ```
 
 #### 内置对象
