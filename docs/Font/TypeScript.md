@@ -51,6 +51,7 @@ let Flag: boolean = false;
 #### 定义一个数字
 
 ```typescript
+
 let num:number = 6
 let num:number = 0xfood
 let num:number = 0b1010
@@ -129,4 +130,26 @@ let somevalue:any = 'this'
 let str:number = (someValue as string).length
 ```
 
-在定义 somevalue 的时候使用的是 any 类型，然后再使用的时候，指定为字符串类型
+在定义 somevalue 的时候使用的是 any 类型，然后再使用的时候，指定为字符串类型,在jsx中仅可以使用as断言
+
+#### 枚举
+
+枚举是enum类型，是js对数值集的定义类型
+
+```javascript
+enum Color {
+  Red = 1,
+  Green,
+  Blue,
+}
+let c: Color = Color.Green;
+```
+
+#### Object类型
+
+object是一种类型的，它表示非原始型的，即任何不是number，string，boolean，symbol，null，或undefined。
+
+```javascript
+
+declare function create(o: object | null): void;
+```
