@@ -172,3 +172,40 @@ dad.name = "Man with the 3-piece suit";
 
 #### 静态修饰符
 
+我们还可以创建类的静态成员，这些静态成员在类本身而不是实例上可见。(会被TS静态检查)
+
+```javascript
+class Grid {
+  static origin = { x: 0, y: 0 };
+
+  calculateDistanceFromOrigin(point: { x: number; y: number }) {
+    let xDist = point.x - Grid.origin.x;
+    let yDist = point.y - Grid.origin.y;
+    return Math.sqrt(xDist * xDist + yDist * yDist) / this.scale;
+  }
+
+  constructor(public scale: number) {}
+}
+
+let grid1 = new Grid(1.0); // 1x scale
+let grid2 = new Grid(5.0); // 5x scale
+
+console.log(grid1.calculateDistanceFromOrigin({ x: 10, y: 10 }));
+console.log(grid2.calculateDistanceFromOrigin({ x: 10, y: 10 }));
+```
+
+#### 抽象类
+
+抽象类是可以从中派生其他类的基类。它们可能无法直接实例化。与接口不同，抽象类可能包含其成员的实现详细信息。该abstract关键字用于抽象类中定义抽象类以及抽象方法。
+
+```javascript
+abstract class Animal {
+  abstract makeSound(): void;
+
+  move(): void {
+    console.log("roaming the earth...");
+  }
+}
+```
+
+#### 
