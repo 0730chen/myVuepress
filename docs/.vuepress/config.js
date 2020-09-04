@@ -73,6 +73,7 @@ module.exports = {
                     '/Font/日历组件',
                     '/Font/TypeScript',
                     '/Font/Typescript(2)',
+                    '/Font/TypeScript3',
                     '/Font/React入门',
                     '/Font/React路由',
                     '/Font/React登陆组件',
