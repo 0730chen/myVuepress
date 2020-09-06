@@ -123,11 +123,113 @@ setImmediate() 实际上是一种特殊的计时器，有自己特有的阶段�
 
 #### setImmediate() vs setTimeout()
 
+setImmediate 和 setTimeout 很相似，但是其回调函数的调用时机却不一样。
+setImmediate() 的作用是在当前 poll 阶段结束后调用一个函数。
+setTimeout() 的作用是在一段时间后调用一个函数。
+这两者的回调的执行顺序取决于 setTimeout 和 setImmediate 被调用时的环境。
+如果 setTimeout 和 setImmediate 都是在主模块（main module）中被调用的，那么回调的执行顺序取决于当前进程的性能，这个性能受其他应用程序进程的影响。
 
+* 举例来说，如果在主模块中运行下面的脚本，那么两个回调的执行顺序是无法判断的：
+
+```javascript
+// timeout_vs_immediate.js
+setTimeout(() => {
+  console.log('timeout');
+}, 0);
+
+setImmediate(() => {
+  console.log('immediate');
+});
+
+```
+
+* 如果把上面代码放到 I/O 操作的回调里，setImmediate 的回调就总是优先于 setTimeout 的回调
+
+```javascript
+// timeout_vs_immediate.js
+const fs = require('fs');
+
+fs.readFile(__filename, () => {
+  setTimeout(() => {
+    console.log('timeout');
+  }, 0);
+  setImmediate(() => {
+    console.log('immediate');
+  });
+});
+
+```
+
+* setImmediate 的主要优势就是，如果在 I/O 操作的回调里，setImmediate 的回调总是比 setTimeout 的回调先执行。
 
 #### process.nextTick() and Promise
 
-他们都会在其所处的事件循环最后，事件循环进入下一个循环的阶段前执行。
+* 他们都会在其所处的事件循环最后，事件循环进入下一个循环的阶段前执行。
+
+* 你可能发现 process.nextTick() 这个重要的异步 API 没有出现在任何一个阶段里，那是因为从技术上来讲 process.nextTick() 并不是 event loop 的一部分。实际上，不管 event loop 当前处于哪个阶段，nextTick 队列都是在当前阶段后就被执行了。
+
+* 任何一个阶段调用 process.nextTick(回调)，回调都会在当前阶段继续运行前被调用。这种行为有的时候会造成不好的结果，因为你可以递归地调用 process.nextTick()，这样 event loop 就会一直停在当前阶段不走……无法进入 poll 阶段。
+* 因为有些异步 API 需要保证一致性，即使可以同步完成，也要保证异步操作的顺序
+
+```javascript
+let bar;
+
+// 这是一个异步 API，但是却同步地调用了 callback
+function someAsyncApiCall(callback) { callback(); }
+
+//`someAsyncApiCall` 在执行过程中就调用了回调
+someAsyncApiCall(() => {
+  // 此时 bar 还没有被赋值为 1
+  console.log('bar', bar); // undefined
+});
+
+bar = 1;
+
+```
+
+* 一个使用例子
+
+```javascript
+const server = net.createServer(() => {}).listen(8080);
+
+server.on('listening', () => {});
+```
+
+.listen(8080) 这句话是同步执行的。问题在于 listening 回调无法被触发，因为 listening 的监听代码在 .listen(8080) 的后面。
+为了解决这个问题，.listen() 函数可以使用 process.nextTick() 来执行 listening 事件的回调。
+
+#### process.nextTick() vs setImmediate()
+
+process.nextTick() 的回调会在当前 event loop 阶段「立即」执行。 setImmediate() 的回调会在后续的 event loop 周期（tick）执行。
+
+
+#### 什么时候使用process.nextTick
+
+* 一个类继承了 EventEmitter，而且想在实例化的时候触发一个事件
+* 不能直接在构造函数里执行 this.emit('event')，因为这样的话后面的回调就永远无法执行。把 this.emit('event') 放在 process.nextTick() 里，后面的回调就可以执行，这才是我们预期的行为
+
+```javascript
+const EventEmitter = require('events');
+const util = require('util');
+
+function MyEmitter() {
+  EventEmitter.call(this);
+
+  //this.emit('event')
+  //这个回调不会被执行，需要使用process.nextTick()
+  // use nextTick to emit the event once a handler is assigned
+  process.nextTick(() => {
+    this.emit('event');
+  });
+}
+util.inherits(MyEmitter, EventEmitter);
+
+const myEmitter = new MyEmitter();
+myEmitter.on('event', () => {
+  console.log('an event occurred!');
+});
+
+```
 
 2.Javascript的事件循环
 
