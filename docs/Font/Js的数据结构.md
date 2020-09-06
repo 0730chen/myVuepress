@@ -30,7 +30,7 @@ function callQueen() {
 }
 ```
 
-2.  栈 特点 先进后出，比如坐电梯
+2.栈 特点 先进后出，比如坐电梯
     以数组形式储存数据，提供两个 API，push()添加数据，shift()弹出头部数据
 
 ```javascript
@@ -47,10 +47,10 @@ function deleteStack() {
 }
 ```
 
-3.  链表 特点 当前节点，记录了下一个节点的地址
+3.链表 特点 当前节点，记录了下一个节点的地址
     例如原型链 对象实现链表
 
-    ```javascript
+```javascript
     //例如
     let linkList = {
       data: 20,

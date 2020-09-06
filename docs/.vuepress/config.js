@@ -161,6 +161,18 @@ module.exports = {
                 children:[
                     '/工作记录/导航栏样式'
                 ]
+            },
+            {
+                title: 'goLang',
+                children:[
+                    '/goLang/基本类型和变量'
+                ]
+            },
+            {
+                title:'python',
+                children:[
+                    '/python/Django应用'
+                ]
             }
 
         ],
