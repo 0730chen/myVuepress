@@ -90,7 +90,6 @@ tom.move(34);
 
 #### 公共，私有和受保护的修饰符
 
-
 ```javascript
 class Animal {
   public name: string;
@@ -208,4 +207,83 @@ abstract class Animal {
 }
 ```
 
-#### 
+#### 泛型
+
+用于创建可重用组件的工具箱中的主要工具之一是泛型，泛型可以创建多种类型而不是单一类型工作的组件<>定义泛型，（）定义泛型中的参数
+
+* 创建一个返回传入内容的函数, 我们需要告诉它传入的参数类型，和函数返回的类型
+
+```javascript
+function identity(arg: number): number {
+  return arg;
+}
+
+function indentity2(arg:any):any{
+  return arg
+}
+
+//泛型写法,在传入的时候使用，在函数返回时使用
+function identity<T>(arg: T): T {
+  return arg;
+}
+```
+
+* 泛型类型变量
+
+```javascript
+function loggingIdentity<T>(arg: T[]): T[] {
+  console.log(arg.length);
+  return arg;
+}
+```
+
+#### 通用泛型
+
+泛型函数的类型与非泛型函数的类型相似，首先列出类型参数，类似于函数声明
+
+```javascript
+function identity<T>(arg: T): T {
+  return arg;
+}
+
+let myIdentity: <T>(arg: T) => T = identity;
+
+function identity<T>(arg: T): T {
+  return arg;
+}
+
+let myIdentity: <U>(arg: U) => U = identity;
+```
+
+* 编写一个通用接口
+
+```javascript
+interface GenericIdentityFn {
+  <T>(arg: T): T;
+}
+
+function identity<T>(arg: T): T {
+  return arg;
+}
+
+let myIdentity: GenericIdentityFn = identity;
+```
+
+#### 通用类
+
+通用类具有与通用接口相似的形状。泛型类<>在类名称后的尖括号（）中具有泛型类型参数列表。
+
+```javascript
+class GenericNumber<T> {
+  zeroValue: T;
+  add: (x: T, y: T) => T;
+}
+
+let myGenericNumber = new GenericNumber<number>();
+myGenericNumber.zeroValue = 0;
+myGenericNumber.add = function(x, y) {
+  return x + y;
+};
+```
+
+* 类的类型有两个方面：静态方面和实例方面。泛型类仅在其实例方面是泛型，而在其静态方面是泛型，因此在使用类时，静态成员不能使用类的type参数。

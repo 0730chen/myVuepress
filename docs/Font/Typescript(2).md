@@ -16,7 +16,7 @@ categories: -TypeScript
 
 2.接口可选属性
 可选属性就是在属性后面加上?,在定义变量的时候可以不写上可选属性
-![carbon (4).png](https://i.loli.net/2019/12/03/VWP3wixZknNSclK.png) 
+![carbon (4).png](https://i.loli.net/2019/12/03/VWP3wixZknNSclK.png)
 
 3.还有任意属性，any，只读属性:在属性前加上 readonly 表示在定义时属性已经赋值，不能更改
 
@@ -93,7 +93,6 @@ function makeObj(n: StringConstructable) {
 }
 console.log(makeObj(MadeFromString).name);
 ```
-
 
 #### 函数声明
 
