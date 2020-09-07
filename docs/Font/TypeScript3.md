@@ -287,3 +287,172 @@ myGenericNumber.add = function(x, y) {
 ```
 
 * 类的类型有两个方面：静态方面和实例方面。泛型类仅在其实例方面是泛型，而在其静态方面是泛型，因此在使用类时，静态成员不能使用类的type参数。
+
+#### 类型防护
+
+类型防护是一个表达式，它执行运行时检查以确保该类型在一定范围内
+
+```javascript
+function isFish(pet: Fish | Bird): pet is Fish {
+  return (pet as Fish).swim !== undefined;
+}
+
+let pet = getSmallPet();
+
+if (isFish(pet)) {
+  pet.swim();
+} else {
+  pet.fly();
+}
+```
+
+#### 实用程序类型
+
+* 构造一个类型，将所有属性Type设置为optional。该实用程序将返回一个表示给定类型的所有子集的类型。
+
+```javascript
+//Partial<Type>
+interface Todo {
+  title: string;
+  description: string;
+}
+
+function updateTodo(todo: Todo, fieldsToUpdate: Partial<Todo>) {
+  return { ...todo, ...fieldsToUpdate };
+}
+
+const todo1 = {
+  title: "organize desk",
+  description: "clear clutter",
+};
+
+const todo2 = updateTodo(todo1, {
+  description: "throw out trash",
+});
+
+```
+
+* 构造一个所有属性都Type设置为的类型readonly，这意味着无法重新分配所构造类型的属性。
+
+```javascript
+Readonly<Type>
+```
+
+* 构造具有类型Keys为type 的属性的类型Type。该实用程序可用于将一个类型的属性映射到另一个类型。
+
+```javascript
+Record<Keys,Type>
+```
+
+* 通过Keys从中选择属性集来构造类型Type。通过从中选择所有属性Type然后删除来构造一个类型Keys。
+
+```javascript
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+
+type TodoPreview = Pick<Todo, "title" | "completed">;
+
+const todo: TodoPreview = {
+  title: "Clean room",
+  completed: false,
+};
+
+
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+}
+
+type TodoPreview = Omit<Todo, "description">;
+
+const todo: TodoPreview = {
+  title: "Clean room",
+  completed: false,
+};
+
+```
+
+#### 装饰器
+
+装饰器提供了一种为类声明和成员添加注释和元编程语法的方法。装饰器是JavaScript 的第2阶段建议，可作为TypeScript的实验功能使用。
+
+* 安装
+
+```shell
+tsc --target ES5 --experimentalDecorators
+```
+
+* 配置文件修改
+
+```shell
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "experimentalDecorators": true
+  }
+}
+```
+
+* 类装饰器,在类声明之前声明一个类装饰器。类装饰器应用于类的构造函数，可用于观察，修改或替换类定义。不能在声明文件或任何其他环境上下文（例如，在declare类中）中使用类装饰器。
+
+类装饰器的表达式将在运行时作为函数调用，装饰类的构造函数为其唯一参数。如果类装饰器返回一个值，它将用提供的构造函数替换类声明。注意如果您选择返回新的构造函数，则必须注意维护原始原型。在运行时应用装饰器的逻辑不会为您执行此操作。
+
+```javascript
+function classDecorator<T extends { new (...args: any[]): {} }>(
+  constructor: T
+) {
+  return class extends constructor {
+    newProperty = "new property";
+    hello = "override";
+  };
+}
+
+@classDecorator
+class Greeter {
+  property = "property";
+  hello: string;
+  constructor(m: string) {
+    this.hello = m;
+  }
+}
+
+console.log(new Greeter("world"));
+
+```
+
+* 方法装饰器
+在方法声明之前声明方法装饰器。装饰器将应用于方法的属性描述符，并可用于观察，修改或替换方法定义。方法修饰器不能在声明文件，重载或任何其他环境上下文中使用
+方法装饰器的表达式将在运行时作为函数调用，并带有以下三个参数：
+
+1. 静态成员的类的构造函数或实例成员的类的原型。
+2. 成员的名称。
+3. 成员的属性描述符。
+如果方法装饰器返回一个值，则它将用作方法的属性描述符。
+
+```javascript
+class Greeter {
+  greeting: string;
+  constructor(message: string) {
+    this.greeting = message;
+  }
+
+  @enumerable(false)
+  greet() {
+    return "Hello, " + this.greeting;
+  }
+}
+
+function enumerable(value: boolean) {
+  return function (
+    target: any,
+    propertyKey: string,
+    descriptor: PropertyDescriptor
+  ) {
+    descriptor.enumerable = value;
+  };
+}
+```
