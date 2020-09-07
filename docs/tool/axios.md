@@ -166,3 +166,23 @@ axios.get('url',data,{
   }
 })
 ```
+
+#### axios下载文件
+
+需要设置响应内容为blob格式
+
+```shell
+npm install --save js-file-download
+```
+
+安装下载文件插件
+
+```javascript
+this.$axios.get(`/corpus/admin/text/annotation?textId=${id}`,{responseType:'blob'}).then(response => {
+    // 获取文件名
+    let t = new RegExp("filename=(.*)","g").exec(response.headers['content-disposition'])[1];
+    let filename=decodeURIComponent(t)
+    // 下载
+    fileDownload(response.data,filename)
+})
+```
