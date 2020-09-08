@@ -177,6 +177,13 @@ npm install --save js-file-download
 
 安装下载文件插件
 
+##### 请求参数
+
+* axios.get(url,{config})
+* axios.delete(url,{config})
+* axios.post(url,data,config)
+* axios.put(url,data,config)
+
 ```javascript
 this.$axios.get(`/corpus/admin/text/annotation?textId=${id}`,{responseType:'blob'}).then(response => {
     // 获取文件名
