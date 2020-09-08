@@ -1,5 +1,5 @@
 ---
-title: TS的类
+title: TS高级类型
 date: 2020-09-04
 tags:
 - Ts类
@@ -230,11 +230,20 @@ function identity<T>(arg: T): T {
 
 * 泛型类型变量
 
+使用T类型的数组
+
 ```javascript
 function loggingIdentity<T>(arg: T[]): T[] {
   console.log(arg.length);
   return arg;
 }
+```
+
+* 泛型数组
+泛型可以帮助我们捕获用户传入的变量，之后我们在使用这个类型，就是用户传入的类型了
+
+```javascript
+let arr<T>[]= []
 ```
 
 #### 通用泛型
@@ -255,7 +264,7 @@ function identity<T>(arg: T): T {
 let myIdentity: <U>(arg: U) => U = identity;
 ```
 
-* 编写一个通用接口
+* 编写一个泛型通用接口
 
 ```javascript
 interface GenericIdentityFn {
@@ -269,7 +278,7 @@ function identity<T>(arg: T): T {
 let myIdentity: GenericIdentityFn = identity;
 ```
 
-#### 通用类
+* 泛型通用类
 
 通用类具有与通用接口相似的形状。泛型类<>在类名称后的尖括号（）中具有泛型类型参数列表。
 
