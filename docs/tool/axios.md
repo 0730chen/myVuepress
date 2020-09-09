@@ -193,3 +193,42 @@ this.$axios.get(`/corpus/admin/text/annotation?textId=${id}`,{responseType:'blob
     fileDownload(response.data,filename)
 })
 ```
+
+#### 请求参数形式
+
+* queryString Params 参数序列化，一般GET请求以这种形式传递参数,请求参数以
+birthday=1997-07-15&gender=1& key=value&key=value形式展示
+
+```javascript
+axios.get('url',data)
+```
+
+* FormData形式传参，一般在post和put方法传参,表单形式
+
+```javascript
+axios.post('url',{data},{header:{'content-type':'application/x-www-form-urlencoded'}})
+```
+
+* 封装一个转换方法
+
+```javascript
+
+let obj = {
+  name:'ffff',
+  age:12,
+  weight:13
+}
+
+//key=value&ke=value
+let queryString = (params)=>{
+
+  let str = ''
+
+  for (const [key, value] of Object.entries(params)) {
+    str += `$${key}=${value}`
+  }
+  return str
+}
+
+console.log(queryString(obj))
+```
