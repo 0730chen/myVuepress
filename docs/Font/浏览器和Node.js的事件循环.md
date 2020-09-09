@@ -85,7 +85,6 @@ someAsyncOperation(() => {
 
 当 event loop 进入 poll 阶段，发现 poll 队列为空（因为文件还没读完），event loop 检查了一下最近的计时器，大概还有 100 毫秒时间，于是 event loop 决定这段时间就停在 poll 阶段。在 poll 阶段停了 95 毫秒之后，fs.readFile 操作完成，一个耗时 10 毫秒的回调函数被系统放入 poll 队列，于是 event loop 执行了这个回调函数。执行完毕后，poll 队列为空，于是 event loop 去看了一眼最近的计时器（译注：event loop 发现卧槽，已经超时 95 + 10 - 100 = 5 毫秒了），于是经由 check 阶段、close callbacks 阶段绕回到 timers 阶段，执行 timers 队列里的那个回调函数。这个例子中，100 毫秒的计时器实际上是在 105 毫秒后才执行的。
 
-
 #### I/O callback阶段
 
 callbacks是上轮残留的。这个阶段执行一些系统操作的回调，比如说TCP连接发生错误。
@@ -202,7 +201,6 @@ server.on('listening', () => {});
 
 process.nextTick() 的回调会在当前 event loop 阶段「立即」执行。 setImmediate() 的回调会在后续的 event loop 周期（tick）执行。
 
-
 #### 什么时候使用process.nextTick
 
 * 一个类继承了 EventEmitter，而且想在实例化的时候触发一个事件
@@ -253,4 +251,4 @@ myEmitter.on('event', () => {
 
       3.4 从 Microtask 队列中取队首(在队列时间最长)的任务进去事件队列执行,执行完后，跳到3.3 其中，在执行代码过程中新增的microtask任务会在当前事件循环周期内执行，而新增的macrotask任务只能等到下一个事件循环才能执行了。
 
-#### 异步理解 
+#### 异步理解
