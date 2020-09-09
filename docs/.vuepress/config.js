@@ -34,7 +34,8 @@ module.exports = {
                     '/tool/跨域详解',
                     '/tool/微信js-sdk配置',
                     '/tool/koa2与express的差异',
-                    '/tool/Node调用脚本'
+                    '/tool/Node调用脚本',
+                    '/tool/模块导出规范'
                 ]
             },
             {
