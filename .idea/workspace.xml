@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/goLang/基本类型和变量.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/goLang/基本类型和变量.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -268,6 +269,8 @@
       <workItem from="1599492058300" duration="2023000" />
       <workItem from="1599577983482" duration="643000" />
       <workItem from="1599664094743" duration="697000" />
+      <workItem from="1599666827443" duration="629000" />
+      <workItem from="1599749954728" duration="2869000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
