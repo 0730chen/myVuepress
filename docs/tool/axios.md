@@ -232,3 +232,38 @@ let queryString = (params)=>{
 
 console.log(queryString(obj))
 ```
+
+#### 文件上传和下载
+
+* 上传
+
+```javascript
+//这里element-ui中的上传组件
+      async handleHttpRequest(request) {
+        const formData = new FormData()
+        formData.append('file', request.file)
+        try {
+          await this.$axios.post('url', formData)
+          this.$message.success('导入成功')
+          this.cancelImportData()
+        } catch (e) {
+          this.$message.error(e.message)
+        }
+      },
+```
+
+* 下载,使用Blob流形式下载
+
+```javascript
+      try {
+        const result = await this.$axios.get('url', {params, responseType: 'blob'})
+        let blob = new Blob([result], {type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'})
+        const a = document.createElement('a')
+        a.href = window.URL.createObjectURL(blob)
+        a.download = `${this.pageNum}页-${this.pageSize}条数据-${new Date().getTime()}.xls`
+        a.click()
+      } catch (e) {
+        this.$message.error(e.message)
+      }
+
+```
