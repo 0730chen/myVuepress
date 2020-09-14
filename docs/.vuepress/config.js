@@ -168,7 +168,8 @@ module.exports = {
             {
                 title: 'goLang',
                 children:[
-                    '/goLang/基本类型和变量'
+                    '/goLang/基本类型和变量',
+                    '/goLang/高级用法'
                 ]
             },
             {
