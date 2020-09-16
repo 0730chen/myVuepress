@@ -170,7 +170,8 @@ module.exports = {
                 children:[
                     '/goLang/基本类型和变量',
                     '/goLang/高级用法',
-                    '/goLang/指针'
+                    '/goLang/指针',
+                    '/goLang/条件语句'
                 ]
             },
             {
