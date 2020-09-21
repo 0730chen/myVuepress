@@ -37,3 +37,87 @@ $('button').click(function(){ var val = $(this).attr('value')})//val中储存
 后面两道设置为display：none,并给选项按钮添加点击事件，判断第一题display值是block则将它重新赋值为none，并将第二题display赋值为block则会显示页面
 
 4.可以使用@font-face{font-family:'起一个名字',src(字体文件位置)}引入字体文件，自定义字体
+
+#### border
+
+border是元素的边框,它并不是一个规则四边形
+
+```css
+div {
+    width: 50px;
+    height: 50px;
+    border: 2px solid orange;
+}
+```
+
+当border元素内有宽高时，border显示的是一个规则四边形
+
+元素的border是由三角形组合而成
+
+```css
+
+div {
+    width: 50px;
+    height: 50px;
+    border: 40px solid;
+    border-color: orange blue red green;
+}
+```
+
+当border的元素宽高都为0时，就会变成4个三角形组成的图形
+
+```css
+div {
+    width: 0;
+    height: 0;
+    border: 40px solid;
+    border-color: orange blue red green;
+}
+```
+
+```css
+div {
+    width: 0;
+    height: 0;
+    border-width: 0 40px 40px;
+    border-style: solid;
+    border-color: transparent transparent red;
+}
+
+```
+
+实现带边框的三角形,可以利用两个三角形叠加实现
+
+```css
+#blue {
+    position:relative;
+    width: 0;
+    height: 0;
+    border-width: 0 40px 40px;
+    border-style: solid;
+    border-color: transparent transparent blue;
+}
+```
+
+使用伪元素进行定位，可以节约标签
+
+```css
+#blue:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-width: 0 40px 40px;
+    border-style: solid;
+    border-color: transparent transparent yellow;
+}
+
+```
+
+#### 设置div背景色透明，里面元素不透明
+
+```css
+background-color:rgba(255,255,255,0.15)
+```
