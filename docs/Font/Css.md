@@ -121,3 +121,14 @@ div {
 ```css
 background-color:rgba(255,255,255,0.15)
 ```
+
+#### css中自定义placeHolder的样式方式
+
+使用伪类实现都placeHolder样式的修改
+
+```css
+ input::-webkit-input-placeholder{
+     font-size:12px;
+     color:#d2d2d2
+}
+```
