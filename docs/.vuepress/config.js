@@ -172,7 +172,8 @@ module.exports = {
                     '/goLang/高级用法',
                     '/goLang/指针',
                     '/goLang/条件语句',
-                    '/goLang/函数'
+                    '/goLang/函数',
+                    '/goLang/go的闭包'
                 ]
             },
             {
