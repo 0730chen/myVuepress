@@ -25,14 +25,17 @@ categories:
 * 在 liunx 中配置 node,npm,nginx,mongodb 数据库
   下载命令 apt-get node 或者使用下载压缩包命令 wget (<http://nodejs.org/dist/v0.8.9/node-v0.8.9.tar.gz>) 使用 tar zxvf 命令解压压缩包，完成后输入 node-v 是否出现 node 版本
 
-  * node 安装完成后可以使用 npm 命令，安装 express 框架 npm install express -g
+* node 安装完成后可以使用 npm 命令，安装 express 框架 npm install express -g
   如果出现 apt-get 报错，可以尝试使用 apt-get update 更新一下源
   安装 nginx，直接安装就可以了，主要是配置文件的更改，在 http 中的 server 下改变你的 ESC 实例网址，和端口。
   在外面访问不到的情况下，是 ESC 实例没有配置安全组。配置完成后，访问。会出现 nginx 欢迎你的界面。
   nginx 配置的代理服务器，将 location / {
   proxy_pass <http://127.0.0.1:3000;3000就是你的node>项目的端口号
   }
-  mongodb 安装。主要是配置文件的添加。mongodb.conf,添加端口号(port),数据库路径 dbpath="" 日志路径 logpath="" 设置后台运行 f ork=true logappend = true 设置日志的输出方式
+* mongodb 安装。主要是配置文件的添加。mongodb.conf,添加端口号(port),数据库路径 dbpath="" 日志路径 logpath="" 设置后台运行 f ork=true logappend = true 设置日志的输出方式
+
+* mongodb的启动方式,./mongod --config /usr/local/mongodb/mongod.conf
+
 * 使用 mp2 管理 node 项目的进程
 
 ##### 学到的 liunx 命令
