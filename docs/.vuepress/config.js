@@ -85,6 +85,7 @@ module.exports = {
                     '/Font/React组件',
                     '/Font/Vue修饰符',
                     '/Font/Vue构造选项',
+                    '/Font/Vue3.0',
                     '/Font/Icon组件',
                     '/Font/面试',
                     '/Font/koa2与express的差异',
