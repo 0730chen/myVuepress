@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/Vue3.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/Vue3.0.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -284,7 +283,8 @@
       <workItem from="1601607836790" duration="47508000" />
       <workItem from="1601892017145" duration="3570000" />
       <workItem from="1602164167607" duration="787000" />
-      <workItem from="1602171744630" duration="627000" />
+      <workItem from="1602171744630" duration="1369000" />
+      <workItem from="1602253788997" duration="1610000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
