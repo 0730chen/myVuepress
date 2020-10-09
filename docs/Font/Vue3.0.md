@@ -82,6 +82,21 @@ const asyncComponent = defineAsyncComponent(
     })
 )
 
+
+//依赖注入
+// in the entry
+app.provide('guide', 'Vue 3 Guide')
+
+// in a child component
+export default {
+  inject: {
+    book: {
+      from: 'guide'
+    }
+  },
+  template: `<div>{{ book }}</div>`
+}
+
 ```
 
 #### 自定义指令语法
@@ -104,7 +119,6 @@ const MyDirective = {
   unmounted() {}
 }
 ```
-
 
 #### 事件接口api被删除
 
@@ -153,4 +167,33 @@ export default {
   }
 </script>
 
+```
+
+#### 多根组件
+
+vue2.0中不支持多根组件，在vue3.0中有多根组件
+
+```html
+
+<template>
+  <div>
+    <header>...</header>
+    <main>...</main>
+    <footer>...</footer>
+  </div>
+</template>
+```
+
+#### 功能性组件
+
+```javascript
+import { h } from 'vue'
+
+const DynamicHeading = (props, context) => {
+  return h(`h${props.level}`, context.attrs, context.slots)
+}
+
+DynamicHeading.props = ['level']
+
+export default DynamicHeading
 ```
