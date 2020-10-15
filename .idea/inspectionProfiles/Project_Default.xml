@@ -15,7 +15,7 @@
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="11">
+          <list size="12">
             <item index="0" class="java.lang.String" itemvalue="nobr" />
             <item index="1" class="java.lang.String" itemvalue="noembed" />
             <item index="2" class="java.lang.String" itemvalue="comment" />
@@ -27,6 +27,7 @@
             <item index="8" class="java.lang.String" itemvalue="icon" />
             <item index="9" class="java.lang.String" itemvalue="logo" />
             <item index="10" class="java.lang.String" itemvalue="nuntview" />
+            <item index="11" class="java.lang.String" itemvalue="layout" />
           </list>
         </value>
       </option>
