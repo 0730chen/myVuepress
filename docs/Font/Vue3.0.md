@@ -197,3 +197,25 @@ DynamicHeading.props = ['level']
 
 export default DynamicHeading
 ```
+
+#### 使用vue3的路由使用
+
+* vue3.0中，就不用将router文件另起一个写了，使用vue-router
+
+```javascript
+import {createWebHistory,createRouter} from 'vue-router'
+
+const history = createWebHistory()
+const router = createRouter({
+    history:history,
+    routes:[
+        {path:'/',component:HelloWorld},
+        {path:'/tabs',component: TabsDemo},
+        {path:'/demo',component: Demo},
+        {path:'/switch',component: SwitchDemo},
+        // {path:'/dialog',component: Dialog}
+        ]
+})
+```
+
+* 默认使用hash模式，history模式需要重新引用
