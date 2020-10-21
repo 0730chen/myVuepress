@@ -219,3 +219,44 @@ const router = createRouter({
 ```
 
 * 默认使用hash模式，history模式需要重新引用
+
+#### 动态绑定class参数
+
+vue2中支持动态绑定标签的class值
+
+* 对象语法
+
+```html
+<div v-bind:class="{ active: isActive }"></div>
+
+<div
+  class="static"
+  v-bind:class="{ active: isActive, 'text-danger': hasError }"
+></div>
+```
+
+* 数组语法
+
+```html
+
+<div v-bind:class="[activeClass, errorClass]"></div>
+<div v-bind:class="[isActive ? activeClass : '', errorClass]"></div>
+<div v-bind:class="[{ active: isActive }, errorClass]"></div>
+```
+
+```javascript
+new Vue({
+  data: {
+  activeClass: 'active',
+  errorClass: 'text-danger'
+}
+})
+
+```
+
+* 多重值
+
+```html
+<div :style="{ display: ['-webkit-box', '-ms-flexbox', 'flex'] }"></div>
+
+```
