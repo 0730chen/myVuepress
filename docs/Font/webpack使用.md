@@ -17,9 +17,10 @@ tags:
 
 #### 配置webpack引入js文件文件
 
-    webpack.base.js
+webpack.base.js
 
-``` javascript
+```javascript
+
     const path = require('path')
     module.exports = {
             mode: 'production', //production和development 生产用于最后打包，默认是development
@@ -37,7 +38,8 @@ tags:
 
     webpack也可以处理html文件，使用html插件生成html
 
-``` javascript
+```javascript
+
     const HtmlWebpackPlugin = require('html-webpack-plugin');
     module.exports = {
         //插件属性

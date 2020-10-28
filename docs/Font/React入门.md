@@ -23,7 +23,7 @@ npm start //开始项目
 
 - src 目录中储存了定义的各种组件，一般将 index.ts 作为父组件
 - public 目录中存放着静态文件，我们不用修改，其中的 index.html 中有一个标签
-- <div id= "root"></div>是存放所有组件的地方
+- root是存放所有组件的地方
 
   4.组件
 
@@ -57,7 +57,7 @@ return (
 
 
 ReactDOM.render(
-	<Click />,
+<Click />,
 document.getElementById("root") //选取了index.html中的root标签
 
 );
@@ -93,5 +93,6 @@ class Message extends React.Component{
 
 #### React 传值
 
-    父传子，通过props属性传递，在引用子组件的位置地方，使用props传递值，子组件可以通过this.props获取到这个值
-    子传父，通过props传递一个函数，子组件调用这个函数，将传递的值通过参数传递，通过函数传递值
+父传子，通过props属性传递，在引用子组件的位置地方，使用props传递值，子组件可以通过this.props获取到这个值
+
+子传父，通过props传递一个函数，子组件调用这个函数，将传递的值通过参数传递，通过函数传递值

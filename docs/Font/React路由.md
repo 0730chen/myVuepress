@@ -8,9 +8,9 @@ tags:
 
 #### 安装路由 react-router-dom
 
-1.  使用 npm install react-router-dom --save 在本项目安装使用 react 路由
+1. 使用 npm install react-router-dom --save 在本项目安装使用 react 路由
 
-2.  在组件中引入路由
+2. 在组件中引入路由
 
 ```javascript
 //在页面中直接引用react-router
@@ -37,68 +37,68 @@ import { BrowserRouter as Router, Switch, Route, Link } from
 //5. link就是相当于一个a标签
 //6.使用 Switch匹配组件
 class TitleBar extends React.Component{
-	constructor(props){
-		super(props)
-	}
-	render(){
-		return(
-			<div>
-			<Router>
-			<nav>
-			<ul>
-			<li><Link to="/question1">问题一</Link></li>
-			<li><Link to="/question2">问题二</Link></li>
-			<li><Link to="/question3">问题三</Link></li>
-			</ul>
-			</nav>
-			<Switch>
-			<Route path="/question1"><Question1/></Route>
-			<Route path="/Question2"><Question2/></Route>
-			<Route path="/Question3"><Question3/></Route>
-			</Switch>
-			</Router>
-			</div>
-		)
-	}
+ constructor(props){
+  super(props)
+ }
+ render(){
+  return(
+   <div>
+   <Router>
+   <nav>
+   <ul>
+   <li><Link to="/question1">问题一</Link></li>
+   <li><Link to="/question2">问题二</Link></li>
+   <li><Link to="/question3">问题三</Link></li>
+   </ul>
+   </nav>
+   <Switch>
+   <Route path="/question1"><Question1/></Route>
+   <Route path="/Question2"><Question2/></Route>
+   <Route path="/Question3"><Question3/></Route>
+   </Switch>
+   </Router>
+   </div>
+  )
+ }
 }
 
 //构建3个组件
 class Question1 extends React.Compoent{
-	constructor(props){
-		super(props)
-	}
-	render(){
-		return(
-			<div><div>问题一组件</div></div>
-		)
-	}
+ constructor(props){
+  super(props)
+ }
+ render(){
+  return(
+   <div><div>问题一组件</div></div>
+  )
+ }
 }
 class Question2 extends React.Component{
-	constructor(props){
-		super(props)
-	}
-	render(){
-		return (
-			<div>
-			<div>问题二组件</div>
-			</div>
-		)
-		}
+ constructor(props){
+  super(props)
+ }
+ render(){
+  return (
+   <div>
+   <div>问题二组件</div>
+   </div>
+  )
+  }
 }
 class Question3 extends React.Component{
-	constructor(props){
-		super(props)
-	}
-	render(){
-		<div>
-		<div>问题三组件</div>
-		</div>
-	}
+ constructor(props){
+  super(props)
+ }
+ render(){
+  <div>
+  <div>问题三组件</div>
+  </div>
+ }
 }
 
 ReactDOM.render(
-	<TitleBar/>,
-	document.getElementById('app')
+ <TitleBar/>,
+ document.getElementById('app')
 )
 export default TitleBar
 
@@ -106,9 +106,11 @@ export default TitleBar
 
 #### 路由组件搭建完成后运行 npm start
 
-    * 点击问题一时，下方显示问题一组件，
-    * 点击问题二时，下方显示问题二组件
-    * 点击问题三时，下方显示问题三组件
+点击问题一时，下方显示问题一组件
+
+点击问题二时，下方显示问题二组件
+
+点击问题三时，下方显示问题三组件
 
 在其他需要路由导航的组件中可以直接使用 import xxx from 'TitleBar'导入这个组件
 
@@ -116,5 +118,6 @@ export default TitleBar
 
 #### 路由跳转
 
-    * 打印this.props 发现有一个history属性
-    * 可以使用this.props.push('路径来跳转')
+打印this.props 发现有一个history属性
+
+可以使用this.props.push('路径来跳转')
