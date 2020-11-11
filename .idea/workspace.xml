@@ -2,379 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/VueBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VueBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/Array.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/Js的执行上下文.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/Promise.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/String.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/发布订阅和观察者模式.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/数组扁平化.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/模拟函数调用方法.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/浏览器和Node.js的事件循环.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/深浅拷贝.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/理解this.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/算法.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/设计模式一.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/迭代和循环.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/防抖,节流.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ES6/高阶函数之call，apply.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Flutter/Flutter入坑1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Css.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Css布局.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Dom事件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/HTTP状态码.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Html.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Html2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Icon组件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/JS函数的执行机制.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/JS基础知识.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/JS对象.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Javascript执行上下文.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/JsBrith.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Js的数据结构.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Js继承.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Koa后端.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/MVC&amp;&amp;eventBus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Nest(1).html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Node异步并发.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Promise.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Promise和异步.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/ReactHooks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/React入门.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/React登陆组件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/React组件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/React路由.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/TypeScript.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/TypeScript3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Typescript(2).html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Vue3.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Vue修饰符.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Vue双向数据绑定.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Vue指令.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Vue构造选项.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Vue版本.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/Vue组合.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/canvas(1).html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/koa2与express的差异.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/redux.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/scss.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/vue项目.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/webpack使用.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/发布订阅和观察者模式.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/指定this指向的三种方法.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/日历组件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/服务端渲染SSR.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/正则表达式.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/正则表达式学习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/浏览器和Node.js的事件循环.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/浏览器渲染原理及Css动画.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/瀑布流实现原理.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/知识图谱.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/算法入门.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/算法入门2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/请求.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/跨域详解.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/轮播图.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/闭包.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Font/面试.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Mongodb/mongodb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Mongodb/mongodb2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Mongodb/mongooseAPI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Mongodb/安装.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/array/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/0.styles.edf51690.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/img/bg.2cfdbb33.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/1.c4dab98e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/10.753567ba.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/100.981c3534.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/101.16a17cf9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/102.669999e6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/103.7a786df5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/104.9f653e39.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/105.e251993f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/106.89c94f1f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/107.ddfda455.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/108.00c2f6a0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/109.a9c56c0d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/11.961ee2a7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/110.594032f9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/111.d424ce75.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/112.b6820ab3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/113.af68affd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/114.86ecd4b7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/115.e123782c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/116.55f5cd0e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/117.7a02d4da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/118.e238ff89.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/119.28c92bbf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/12.654e14e6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/120.7e3e78e7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/121.36445c5e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/122.cec4b431.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/123.dbdbe3f1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/124.153779e7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/125.5cfa721d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/126.b98e54cc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/127.e6297f76.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/128.dae01bbd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/129.33ec47f1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/13.f3df22f5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/130.9fc4ac5d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/131.376d712f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/14.ac4eb4e4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/15.1c7a1394.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/16.862365a1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/17.914d1ead.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/18.4b8f6e2a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/19.6d20056e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/20.3d50c3f9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/21.4fc2704d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/22.57e7c692.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/23.b168bb94.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/24.5e9b145b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/25.56d3d124.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/26.5999f8d9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/27.74f060c7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/28.37f15269.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/29.0085e949.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/3.7510b978.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/30.62834a80.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/31.324f70a6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/32.e19242e9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/33.82ad8a8f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/34.7e67c194.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/35.ea6f7495.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/36.0ed4540d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/37.6beb8e59.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/38.50133769.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/39.0633f006.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/4.6cdaa6b6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/40.41f148e1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/41.7bfee408.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/42.574164c2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/43.75866ac6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/44.4dd01e7a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/45.3b2df3c3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/46.2d01b3fe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/47.f93ceabd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/48.a648a5f6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/49.b09db347.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/5.84abc1cc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/50.df36b11c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/51.d3969acf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/52.8f8c408d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/53.4b0b1996.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/54.e7eb2799.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/55.a7e14e4b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/56.9cf11396.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/57.343211f6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/58.6ae4737c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/59.ee60ef95.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/6.0eabcf21.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/60.8636dea7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/61.03d29dbf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/62.c0e83db7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/63.99c3a3eb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/64.934ff6e3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/65.1073fd73.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/66.9a4bfcf4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/67.3c18deed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/68.79761ff2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/69.7b434eb0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/7.9685f570.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/70.41a78bfc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/71.1340b21f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/72.b616423f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/73.36054c3e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/74.f04a501c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/75.68bd5839.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/76.6f326530.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/77.a4b35fd7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/78.93f01f09.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/79.724e1959.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/8.18b743d3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/80.02d54d9f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/81.f82a93e9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/82.4b4c57cd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/83.1980d16c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/84.78360c65.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/85.27969c3a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/86.5299ec4b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/87.b702d455.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/88.446437c8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/89.6a157125.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/9.dd6bf762.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/90.2c263ec5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/91.5fd71012.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/92.7f63e984.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/93.f60fbd16.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/94.775fd3c5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/95.980299bc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/96.fbed50bd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/97.efa566ce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/98.5dc0ec61.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/99.db3f2e53.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/app.5a37ba9a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/-TypeScript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/-TypeScriptt/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/API/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/APP开发/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/DOM/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/ES6/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/Function/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/Vue3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/ajax/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/array/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/css/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/golang/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/nginx/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/ts/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/后端/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/布局/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/异步/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/微信/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/打包/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/打包工具/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/接口/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/数据库/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/服务端/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/正则/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/知识图谱/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/算法/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/组件/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/自定义组件/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/设计模式/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/面试/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/categories/项目/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/goLang/go的闭包.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/goLang/函数.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/goLang/基本类型和变量.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/goLang/指针.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/goLang/条件语句.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/goLang/高级用法.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/home/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/home/one.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/home/two.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/images/avator.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/linux/Docker基础.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/linux/basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/linux/dockerFile配置文件.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/linux/nginx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/linux/shell脚本语法学习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/linux/数据库.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/python/Django应用.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/-React/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/-TypeScript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/-Vue/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/-跨域 -nginx -ajax/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/APP开发/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/ES6/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Flutter/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Font/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Function/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Go/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/HTML/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/JS/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/JS基础/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Jquery/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Js函数/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Modules/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Node/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/React/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Redux/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/SSR/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Ts类/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/TypeScript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/Vue/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/ajax/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/api/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/array/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/axios/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/canvas/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/css/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/dom/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/golang/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/http/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/javascript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/liunx/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/mongodb/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/nginx/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/promise/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/shell/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/string/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/this/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/webpack/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/事件循环/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/作用域/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/公众号/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/前端/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/动画/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/基础/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/基础知识/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/小程序/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/布局/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/异步/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/微信/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/打包/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/抽象工厂/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/指针/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/数据库/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/数据结构/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/数组/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/服务端/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/框架/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/正则/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/正则表示式/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/知识图谱/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/算法/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/组件/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/继承/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/自动化工具/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/设计模式/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/负载均衡/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/跨域/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/跨域代理/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/路由使用/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/路由跳转/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/运行机制/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/闭包/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tag/面试/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/BFC块级上下文.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/CV基本原理.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/Jquery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/Jquery2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/Node调用脚本.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/Superagent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/axios.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/koa2与express的差异.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/webpack2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/webpackp1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/微信js-sdk配置.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/数据库的使用.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/模块导出规范.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tool/跨域详解.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/工作记录/导航栏样式.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/微信相关/小程序1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/微信相关/小程序云开发.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/微信相关/微信公众号开发1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/正则系列/常用正则库.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/正则系列/正则系列1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/正则系列/正则系列2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/设计模式/工厂方法.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/设计模式/抽象工厂方法.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Font/Vue3.0.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/Vue3.0.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Font/scss.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/scss.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/page-components.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/page-components.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/siteData.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@vuepress/core/.temp/internal/siteData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/面试.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -418,7 +50,7 @@
     <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fish-ui/public" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.jsx" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="C:\H5\money-atom\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -430,11 +62,11 @@
       <recent name="C:\H5\money-atom\public\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\H5\fish-ui\src\Icon" />
       <recent name="C:\H5\fish-ui\src\lib" />
       <recent name="C:\H5\myVuepress\docs\linux" />
       <recent name="C:\H5\money-atom\public" />
       <recent name="C:\H5\myVuepress\docs\.vuepress\public" />
-      <recent name="C:\H5\fish-ui\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -660,6 +292,21 @@
       <workItem from="1602768768509" duration="2368000" />
       <workItem from="1602947299481" duration="1524000" />
       <workItem from="1603021182210" duration="5597000" />
+      <workItem from="1603121583676" duration="2018000" />
+      <workItem from="1603202452346" duration="3970000" />
+      <workItem from="1603294865169" duration="1028000" />
+      <workItem from="1603375458750" duration="3330000" />
+      <workItem from="1603604690764" duration="13411000" />
+      <workItem from="1603725763623" duration="3932000" />
+      <workItem from="1603896552348" duration="1096000" />
+      <workItem from="1603983417104" duration="3654000" />
+      <workItem from="1604068052517" duration="2436000" />
+      <workItem from="1604156785550" duration="19254000" />
+      <workItem from="1604326690239" duration="2385000" />
+      <workItem from="1604416161208" duration="2399000" />
+      <workItem from="1604583173482" duration="4347000" />
+      <workItem from="1604972289243" duration="8309000" />
+      <workItem from="1605105916707" duration="3327000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
