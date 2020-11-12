@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/VueBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VueBlog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Font/面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/面试.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -306,7 +302,8 @@
       <workItem from="1604416161208" duration="2399000" />
       <workItem from="1604583173482" duration="4347000" />
       <workItem from="1604972289243" duration="8309000" />
-      <workItem from="1605105916707" duration="3327000" />
+      <workItem from="1605105916707" duration="3329000" />
+      <workItem from="1605176998240" duration="1761000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
