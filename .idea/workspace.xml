@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/面试.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,19 +51,19 @@
     <property name="ts.external.directory.path" value="C:\H5\money-atom\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\H5\fish-ui\src\view" />
+      <recent name="C:\H5\fish-ui\src\components" />
+      <recent name="C:\H5\fish-ui\src\Icon" />
+      <recent name="C:\H5\fish-ui\src\lib" />
+      <recent name="C:\H5\myVuepress\docs\linux" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\H5\fish-ui\public" />
       <recent name="C:\H5\music\cloud-music\static" />
       <recent name="C:\H5\myVuepress\docs\ES6" />
       <recent name="C:\H5\myVuepress\docs\正则系列" />
       <recent name="C:\H5\money-atom\public\image" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\H5\fish-ui\src\Icon" />
-      <recent name="C:\H5\fish-ui\src\lib" />
-      <recent name="C:\H5\myVuepress\docs\linux" />
-      <recent name="C:\H5\money-atom\public" />
-      <recent name="C:\H5\myVuepress\docs\.vuepress\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,7 +304,10 @@
       <workItem from="1604583173482" duration="4347000" />
       <workItem from="1604972289243" duration="8309000" />
       <workItem from="1605105916707" duration="3329000" />
-      <workItem from="1605176998240" duration="1761000" />
+      <workItem from="1605176998240" duration="2376000" />
+      <workItem from="1605275617541" duration="599000" />
+      <workItem from="1605333704260" duration="10569000" />
+      <workItem from="1605510264135" duration="8940000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
@@ -354,6 +358,7 @@
         <option value="$PROJECT_DIR$/../keepcount/src/registerServiceWorker.js" />
         <option value="$PROJECT_DIR$/../keepcount/src/store/index.js.map" />
         <option value="$PROJECT_DIR$/../keepcount/src/store/index.js" />
+        <option value="$PROJECT_DIR$/../fish-ui/src/lib/openMessage.js" />
       </list>
     </option>
   </component>
