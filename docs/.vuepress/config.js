@@ -59,7 +59,6 @@ module.exports = {
                     '/Font/Js继承',
                     '/Font/算法入门',
                     '/Font/算法入门2',
-                    '/Font/MVC&&eventBus',
                     '/Font/指定this指向的三种方法',
                     '/Font/跨域详解',
                     '/Font/闭包',
@@ -93,7 +92,8 @@ module.exports = {
                     '/Font/Nest(1)',
                     '/Font/canvas(1)',
                     '/Font/ReactHooks',
-                    '/Font/Javascript执行上下文'
+                    '/Font/Javascript执行上下文',
+                    '/Font/虚拟Dom和DomDiff算法'
                 ]
             },
             {
