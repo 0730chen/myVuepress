@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/ES6/算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ES6/算法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Font/面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Font/面试.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -308,7 +309,8 @@
       <workItem from="1605333704260" duration="10569000" />
       <workItem from="1605510264135" duration="8940000" />
       <workItem from="1605622294194" duration="2831000" />
-      <workItem from="1605699491153" duration="982000" />
+      <workItem from="1605699491153" duration="1634000" />
+      <workItem from="1605779694349" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
