@@ -13,11 +13,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="tsx" />
         <option value="React Class Component" />
         <option value="XSLT Stylesheet" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
       </list>
     </option>
@@ -46,16 +46,16 @@
     <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fish-ui/public" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="ts.external.directory.path" value="C:\H5\money-atom\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\H5\fish-ui\src" />
+      <recent name="C:\H5" />
       <recent name="C:\H5\fish-ui\src\view" />
       <recent name="C:\H5\fish-ui\src\components" />
       <recent name="C:\H5\fish-ui\src\Icon" />
-      <recent name="C:\H5\fish-ui\src\lib" />
-      <recent name="C:\H5\myVuepress\docs\linux" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\H5\fish-ui\public" />
@@ -309,7 +309,11 @@
       <workItem from="1605510264135" duration="8940000" />
       <workItem from="1605622294194" duration="2831000" />
       <workItem from="1605699491153" duration="1634000" />
-      <workItem from="1605779694349" duration="5045000" />
+      <workItem from="1605779694349" duration="16197000" />
+      <workItem from="1605881723931" duration="137000" />
+      <workItem from="1605881886140" duration="4671000" />
+      <workItem from="1605925459730" duration="2660000" />
+      <workItem from="1606039518735" duration="18542000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
@@ -361,6 +365,7 @@
         <option value="$PROJECT_DIR$/../keepcount/src/store/index.js.map" />
         <option value="$PROJECT_DIR$/../keepcount/src/store/index.js" />
         <option value="$PROJECT_DIR$/../fish-ui/src/lib/openMessage.js" />
+        <option value="$PROJECT_DIR$/../fish-ui/src/router/router.js" />
       </list>
     </option>
   </component>
