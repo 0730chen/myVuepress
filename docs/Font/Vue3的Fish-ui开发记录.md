@@ -57,3 +57,43 @@ $event是emit()方法的第二个参数
 * props支持string以外的类型，attrs只支持string类型
 
 #### 动态挂载组件
+
+引用组件dialog.vue，主要是dialog的节点及样式内容
+
+
+* 如何动态挂载一个组件,h函数可以进行虚拟Dom的创建，动态创建div，使用div去挂载组件
+
+```javascript
+import Dialog from "./Dialog.vue";
+import { createApp, h } from "vue";
+export const openDialog = (options) => {
+    const { title, content, ok, cancel } = options;
+    const div = document.createElement("div");
+    document.body.appendChild(div);
+    const close = () => {
+        app.unmount(div);
+        div.remove();
+    };
+    const app = createApp({
+        render() {
+            return h(
+                Dialog,
+                {
+                    visible: true,
+                    "onUpdate:visible": (newVisible) => {
+                        if (newVisible === false) {
+                            close();
+                        }
+                    },
+                    ok, cancel
+                },
+                {
+                    title,
+                    content,
+                }
+            );
+        },
+    });
+    app.mount(div);
+};
+```
