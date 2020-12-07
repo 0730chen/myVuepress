@@ -93,7 +93,8 @@ module.exports = {
                     '/Font/canvas(1)',
                     '/Font/ReactHooks',
                     '/Font/Javascript执行上下文',
-                    '/Font/虚拟Dom和DomDiff算法'
+                    '/Font/虚拟Dom和DomDiff算法',
+                    '/Font/Vue3的Fish-ui开发记录'
                 ]
             },
             {
