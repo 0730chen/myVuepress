@@ -46,3 +46,14 @@ $event是emit()方法的第二个参数
 * 使用inheritAttrs:false,禁止div内部属性继承
 * 使用$attrs或者context.attrs获取全部的属性
 * 使用v-bind:attrs批量将属性绑定
+* 使用const  {value} = context.attrs 进行解析赋值获取
+* 组件的样式不能使用scoped属性，否则会有css样式不方便覆盖的问题
+
+#### attrs和props的区别
+
+* props需要先声明才能使用，attrs不用先声明
+* props不包含事件，attrs包含事件
+* props没有声明的属性会跑到attrs中
+* props支持string以外的类型，attrs只支持string类型
+
+#### 动态挂载组件
