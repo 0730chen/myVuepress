@@ -60,7 +60,6 @@ $event是emit()方法的第二个参数
 
 引用组件dialog.vue，主要是dialog的节点及样式内容
 
-
 * 如何动态挂载一个组件,h函数可以进行虚拟Dom的创建，动态创建div，使用div去挂载组件
 
 ```javascript
