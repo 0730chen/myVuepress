@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c6ec38ba-f0b1-476a-b929-de0f5d37ce12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/工作记录/导航栏样式.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/工作记录/导航栏样式.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -324,7 +323,7 @@
       <workItem from="1607138345762" duration="3421000" />
       <workItem from="1607341767869" duration="2935000" />
       <workItem from="1607945806951" duration="757000" />
-      <workItem from="1608346709340" duration="887000" />
+      <workItem from="1608346709340" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用webstrom commit">
       <created>1586609391556</created>
