@@ -2,6 +2,9 @@ module.exports = {
     // 设置网站标题
     title: 'Atom',
     theme: 'reco',
+    head: [
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+      ],
     // 设置输出目录
     description: "敲就硬敲",
     dest: './dist',
