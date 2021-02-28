@@ -183,6 +183,12 @@ module.exports = {
                 ]
             },
             {
+                title:'Java',
+                children:[
+                    '/Java/基本数据类型'
+                ]
+            },
+            {
                 title:'python',
                 children:[
                     '/python/Django应用'
