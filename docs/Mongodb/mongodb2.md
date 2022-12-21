@@ -48,6 +48,8 @@ categories:
 * vim 文件名 使用 vim 编辑器打开一个文件，esc 按钮退出然后 :wq 是退出并保存文件
 * find 命令，查找文件
 * mv 命令是 move 命令，是更改文件名或者将文件的内容复制到另一个文件中
-8 mkdir 命令，创建一个文件夹
+* mkdir 命令，创建一个文件夹
 * liunx 下运行 mongodb 数据库。在 mongodb 安装目录下运行 ./mongod --config ../mongodb.conf，以配置文件启动启动服务端 mongodb
 * 运行 ./mongo --port=27899，以端口启动客户端 ,关闭配置文件中的 auth 属性就可以
+* systemctl status firewalld.service 在使用navicat连接数据库不成功时使用
+* 使用工具连接  
