@@ -65,6 +65,7 @@ git merge | 在前分支运行命令，将分支合并 | git merge -分支名
 git diff | 查看不同 | 查看这次提交与之前提交的不同 +代表添加 -代表删除
 git status | 查看当前git的状态| git status sb 查看是否存在冲突
 git remote -set-url|设置远程连接仓库的地址|git remote -set-url nam url
+git stash | 暂存一份代码之后可以恢复到该节点，类似快照| git stash / git stash xxxx
 
 #### git提交的正确姿势
 
