@@ -86,6 +86,6 @@ function spliceArray(arr,size){
      let a = arr.splice(0,size)
     res.push(a)
     }
-    return a    
+    return res    
 }
 ```
