@@ -59,3 +59,33 @@ categories:
    ```
 
 6. 传入值的数组方法包含:include,indexOf，剩余大部分都是传入一个函数进行过滤查询
+
+7. 将数组按照给定的尺寸进行分割
+
+* slice()
+
+```javascript
+//由于slice()方法不会对原数组进行改变
+function sliceArray(arr,size){
+    let res = []
+    for(let i = 0;i<arr.length;i+=size){
+        res.push(arr.slice(i,i+size))
+    }
+    return res
+}
+```
+
+* splice()
+
+```javascript
+//由于splice()方法会对原数组进行删减
+
+function spliceArray(arr,size){
+    let res = []
+    while(arr.length){
+     let a = arr.splice(0,size)
+    res.push(a)
+    }
+    return a    
+}
+```
